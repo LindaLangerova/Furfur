@@ -18,7 +18,10 @@ public class TextReaction : Reaction
 
     protected override void ImmediateReaction()
     {
-        if(!textManager.isWriting)
-            textManager.DisplayMessage (message, textColor, delay);
+        if (!textManager.waitForKey)
+        {
+            textManager.DisplayMessage(message, textColor, delay);
+        }
+            
     }
 }

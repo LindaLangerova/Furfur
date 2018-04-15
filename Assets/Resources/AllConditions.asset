@@ -11,4 +11,244 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e80ba8b320b4744681772a3157c9e4f, type: 3}
   m_Name: AllConditions
   m_EditorClassIdentifier: 
-  conditions: []
+  conditions:
+  - {fileID: 114152659597247516}
+  - {fileID: 114757791677735418}
+  - {fileID: 114724466208708242}
+  - {fileID: 114117531427551242}
+  - {fileID: 114026170469526374}
+  - {fileID: 114899026146741852}
+  - {fileID: 114785247181273098}
+  - {fileID: 114235309432964904}
+  - {fileID: 114398739270113156}
+  - {fileID: 114777046904157912}
+  - {fileID: 114410628574692600}
+  - {fileID: 114540866175121780}
+  - {fileID: 114578553671634154}
+  - {fileID: 114594125844622938}
+  - {fileID: 114452328746183202}
+  - {fileID: 114224895762221970}
+--- !u!114 &114026170469526374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: 3TalkToPelican
+  m_EditorClassIdentifier: 
+  description: 3TalkToPelican
+  satisfied: 0
+  hash: -737605018
+--- !u!114 &114117531427551242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: 2TalkToPelican
+  m_EditorClassIdentifier: 
+  description: 2TalkToPelican
+  satisfied: 0
+  hash: 1225190160
+--- !u!114 &114152659597247516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: TalkToTuxAtTheBegining
+  m_EditorClassIdentifier: 
+  description: TalkToTuxAtTheBegining
+  satisfied: 0
+  hash: 1353264136
+--- !u!114 &114224895762221970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: ObtainMemory
+  m_EditorClassIdentifier: 
+  description: ObtainMemory
+  satisfied: 0
+  hash: -854692454
+--- !u!114 &114235309432964904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: ObtainLadder
+  m_EditorClassIdentifier: 
+  description: ObtainLadder
+  satisfied: 0
+  hash: 283043210
+--- !u!114 &114398739270113156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: BuildLadder
+  m_EditorClassIdentifier: 
+  description: BuildLadder
+  satisfied: 0
+  hash: 2087562579
+--- !u!114 &114410628574692600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: SatisfyMichalDavid
+  m_EditorClassIdentifier: 
+  description: SatisfyMichalDavid
+  satisfied: 0
+  hash: -681779809
+--- !u!114 &114452328746183202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: OpenSpecialPointer
+  m_EditorClassIdentifier: 
+  description: OpenSpecialPointer
+  satisfied: 0
+  hash: -1171644367
+--- !u!114 &114540866175121780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: SatisfyPrimitiveDatatypes
+  m_EditorClassIdentifier: 
+  description: SatisfyPrimitiveDatatypes
+  satisfied: 0
+  hash: -1147205427
+--- !u!114 &114578553671634154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: TalkToMemoryBoy
+  m_EditorClassIdentifier: 
+  description: TalkToMemoryBoy
+  satisfied: 0
+  hash: 1853151187
+--- !u!114 &114594125844622938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: SatisfyMemoryBoy
+  m_EditorClassIdentifier: 
+  description: SatisfyMemoryBoy
+  satisfied: 0
+  hash: -466516529
+--- !u!114 &114724466208708242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: 1TalkToPelican
+  m_EditorClassIdentifier: 
+  description: 1TalkToPelican
+  satisfied: 0
+  hash: 895995595
+--- !u!114 &114757791677735418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: ObtainWaterBottle
+  m_EditorClassIdentifier: 
+  description: ObtainWaterBottle
+  satisfied: 0
+  hash: 48883301
+--- !u!114 &114777046904157912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: TalkToMichalDavid
+  m_EditorClassIdentifier: 
+  description: TalkToMichalDavid
+  satisfied: 0
+  hash: -1269941665
+--- !u!114 &114785247181273098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: 5TalkToPelican
+  m_EditorClassIdentifier: 
+  description: 5TalkToPelican
+  satisfied: 0
+  hash: 751518160
+--- !u!114 &114899026146741852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: 4TalkToPelican
+  m_EditorClassIdentifier: 
+  description: 4TalkToPelican
+  satisfied: 0
+  hash: -1312513882

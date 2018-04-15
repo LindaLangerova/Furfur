@@ -9,6 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 96a2ed4c43c795143871cceef66f8594, type: 3}
-  m_Name: New Item
+  m_Name: Cstring
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 2d6ab7fa68de47741995c35db895ce04, type: 3}
+  sprite: {fileID: 21300000, guid: 2465821615d8d99458a0bb975fc37743, type: 3}

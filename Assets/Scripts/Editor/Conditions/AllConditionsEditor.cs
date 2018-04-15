@@ -64,6 +64,16 @@ public class AllConditionsEditor : Editor
         }
     }
 
+    private static void ResetAllConditions()
+    {
+        int lenght = TryGetConditionsLength();
+
+        for (int i = 0; i < lenght; i++)
+        {
+            TryGetConditionAt(i).satisfied = false;
+        }
+    }
+
 
     public override void OnInspectorGUI ()
     {
@@ -95,6 +105,16 @@ public class AllConditionsEditor : Editor
             AddCondition (newConditionDescription);
             newConditionDescription = "New Condition";
         }
+        EditorGUILayout.EndHorizontal();
+
+        ////
+        EditorGUILayout.BeginHorizontal();
+        
+        if (GUILayout.Button("Make all unsatisfied", GUILayout.Width(150)))
+        {
+            ResetAllConditions();
+        }
+
         EditorGUILayout.EndHorizontal ();
     }
 

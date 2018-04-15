@@ -50,8 +50,10 @@ public class PlayerMovement : PhysicsObject
         }
 
         bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < -0.01f));
+
         if (flipSprite)
         {
+            boxCollider.offset = new Vector2(-boxCollider.offset.x, boxCollider.offset.y);
             spriteRenderer.flipX = !spriteRenderer.flipX;
         }
 

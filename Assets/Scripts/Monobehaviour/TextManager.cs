@@ -1,22 +1,20 @@
 using System;
-using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
-using UnityEditor.PackageManager;
-using UnityEngine.Assertions.Comparers;
-using UnityEngine.Tizen;
+using System.Linq;
 
 public class TextManager : MonoBehaviour
 {
-    public struct Instruction
+    public class Instruction
     {
-        public string message;
-        public Color textColor;
-        public float startTime;
+        public string message { get; set; }
+        public Color textColor { get; set; }
+        public float startTime { get; set; }
+        public GameObject player { get; set; }
     }
 
-    public bool isWriting;
+    public bool waitForKey;
     public Text text;
     public float displayTimePerCharacter = 0.1f;
     public float additionalDisplayTime = 1f;
@@ -30,22 +28,45 @@ public class TextManager : MonoBehaviour
     {
         if (instructions.Count > 0 && Time.time >= instructions[0].startTime)
         {
-            //text.text = instructions[0].message;
             text.color = instructions[0].textColor;
+
             if (text.text.Length < instructions[0].message.Length)
             {
-                isWriting = true;
-                WriteDialog(instructions[0]);
+                if (Input.GetKeyDown(KeyCode.X) && waitForKey)
+                {
+                    text.text = instructions[0].message;
+                    clearTime = Time.time + additionalDisplayTime;
+                }
+                else
+                {
+                    waitForKey = true;
+                    WriteDialog(instructions[0]);
+                }
             }
-            else instructions.RemoveAt(0);
+            else
+            {
+                if (Input.GetKeyDown(KeyCode.X) && waitForKey)
+                {
+                    clearTime = Time.time;
+                    instructions.RemoveAt(0);
+                    if (instructions.Count > 0)
+                    {
+                        text.text = "";
+                        instructions.First().startTime = Time.time;
+                        clearTime = Time.time + instructions.First().message.Length * displayTimePerCharacter +
+                                    additionalDisplayTime;
+                    }
+                }
+                
+            }
         }
         else if (Time.time >= clearTime)
         {
-            isWriting = false;
+            clearTime = Time.time;
+            waitForKey = false;
             text.text = string.Empty;
         }
     }
-
 
     public void DisplayMessage (string message, Color textColor, float delay)
     {
@@ -56,14 +77,29 @@ public class TextManager : MonoBehaviour
         if (newClearTime > clearTime)
             clearTime = newClearTime;
 
-        Instruction newInstruction = new Instruction
-        {
-            message = message,
-            textColor = textColor,
-            startTime = startTime
-        };
+        var words = message.Split(' ').ToList();
 
-        instructions.Add (newInstruction);
+        var newInstruction = new Instruction {message = "", textColor = textColor, startTime = startTime};
+
+        while (words.Count > 0)
+        {
+            if ((newInstruction.message + " " + words.First()).Length <= 160)
+            {
+                if (newInstruction.message != "")
+                {
+                    newInstruction.message += " ";
+                }
+                newInstruction.message += words.First();
+
+                words.RemoveAt(0);
+            }
+            else
+            {
+                instructions.Add(newInstruction);
+                newInstruction = new Instruction { message = "", textColor = textColor, startTime = startTime };
+            }
+        }
+        instructions.Add(newInstruction);
 
         SortInstructions ();
     }
