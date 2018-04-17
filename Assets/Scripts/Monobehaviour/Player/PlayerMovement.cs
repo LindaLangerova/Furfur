@@ -11,6 +11,7 @@ public class PlayerMovement : PhysicsObject
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private BoxCollider2D boxCollider;
+    public bool pushed;
 
     // Use this for initialization
     void Awake()
@@ -24,7 +25,18 @@ public class PlayerMovement : PhysicsObject
     {
         Vector2 move = Vector2.zero;
 
-        move.x = Input.GetAxis("Horizontal");
+        if (grounded)
+        {
+            pushed = false;
+        }
+        if (!pushed)
+        {
+            move.x = Input.GetAxis("Horizontal");
+        }
+        else
+        {
+            move.x = (float) (move.x * 0.5);
+        }
         animator.SetBool("spacePressed", false);
 
         if (Input.GetButtonDown("Jump") && grounded)
