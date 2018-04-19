@@ -26,6 +26,12 @@ public class TextManager : MonoBehaviour
 
     private void Update ()
     {
+        if (text.text == "") GameObject.Find("Player").GetComponent<PlayerMovement>().enabled = true;
+        else
+        {
+            GameObject.Find("Player").GetComponent<PlayerMovement>().Stop();
+        }
+
         if (instructions.Count > 0 && Time.time >= instructions[0].startTime)
         {
             text.color = instructions[0].textColor;

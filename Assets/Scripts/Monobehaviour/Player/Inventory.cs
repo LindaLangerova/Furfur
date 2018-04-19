@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
@@ -33,5 +34,22 @@ public class Inventory : MonoBehaviour
                 return;
             }
         }
+    }
+
+    public void RemoveLast()
+    {
+        for (int i = numItemSlots-1; i >= 0; i--)
+        {
+            if (items[i] != null)
+            {
+                RemoveItem(items[i]);
+                return;
+            }
+        }
+    }
+
+    public bool ContainsItems()
+    {
+        return items.Any(x => x != null);
     }
 }
