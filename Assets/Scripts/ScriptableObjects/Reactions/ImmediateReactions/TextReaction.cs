@@ -3,7 +3,7 @@
 public class TextReaction : Reaction
 {
     public string message;
-    public Color textColor = Color.white;
+    public Color textColor = new Color(0.184f, 0.184f, 0.184f, 1f);
     public float delay;
 
 

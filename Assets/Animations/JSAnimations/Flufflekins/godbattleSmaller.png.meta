@@ -1,0 +1,1282 @@
+fileFormatVersion: 2
+guid: 4f1d43819fcf33b4c9018a9a1aa44429
+timeCreated: 1524968181
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: godbattleSmaller_0
+    21300002: godbattleSmaller_1
+    21300004: godbattleSmaller_2
+    21300006: godbattleSmaller_3
+    21300008: godbattleSmaller_4
+    21300010: godbattleSmaller_5
+    21300012: godbattleSmaller_6
+    21300014: godbattleSmaller_7
+    21300016: godbattleSmaller_8
+    21300018: godbattleSmaller_9
+    21300020: godbattleSmaller_10
+    21300022: godbattleSmaller_11
+    21300024: godbattleSmaller_12
+    21300026: godbattleSmaller_13
+    21300028: godbattleSmaller_14
+    21300030: godbattleSmaller_15
+    21300032: godbattleSmaller_16
+    21300034: godbattleSmaller_17
+    21300036: godbattleSmaller_18
+    21300038: godbattleSmaller_19
+    21300040: godbattleSmaller_20
+    21300042: godbattleSmaller_21
+    21300044: godbattleSmaller_22
+    21300046: godbattleSmaller_23
+    21300048: godbattleSmaller_24
+    21300050: godbattleSmaller_25
+    21300052: godbattleSmaller_26
+    21300054: godbattleSmaller_27
+    21300056: godbattleSmaller_28
+    21300058: godbattleSmaller_29
+    21300060: godbattleSmaller_30
+    21300062: godbattleSmaller_31
+    21300064: godbattleSmaller_32
+    21300066: godbattleSmaller_33
+    21300068: godbattleSmaller_34
+    21300070: godbattleSmaller_35
+    21300072: godbattleSmaller_36
+    21300074: godbattleSmaller_37
+    21300076: godbattleSmaller_38
+    21300078: godbattleSmaller_39
+    21300080: godbattleSmaller_40
+    21300082: godbattleSmaller_41
+    21300084: godbattleSmaller_42
+    21300086: godbattleSmaller_43
+    21300088: godbattleSmaller_44
+    21300090: godbattleSmaller_45
+    21300092: godbattleSmaller_46
+    21300094: godbattleSmaller_47
+    21300096: godbattleSmaller_48
+    21300098: godbattleSmaller_49
+    21300100: godbattleSmaller_50
+    21300102: godbattleSmaller_51
+    21300104: godbattleSmaller_52
+    21300106: godbattleSmaller_53
+    21300108: godbattleSmaller_54
+    21300110: godbattleSmaller_55
+    21300112: godbattleSmaller_56
+    21300114: godbattleSmaller_57
+    21300116: godbattleSmaller_58
+    21300118: godbattleSmaller_59
+    21300120: godbattleSmaller_60
+    21300122: godbattleSmaller_61
+    21300124: godbattleSmaller_62
+    21300126: godbattleSmaller_63
+    21300128: godbattleSmaller_64
+    21300130: godbattleSmaller_65
+    21300132: godbattleSmaller_66
+    21300134: godbattleSmaller_67
+    21300136: godbattleSmaller_68
+    21300138: godbattleSmaller_69
+    21300140: godbattleSmaller_70
+    21300142: godbattleSmaller_71
+    21300144: godbattleSmaller_72
+    21300146: godbattleSmaller_73
+    21300148: godbattleSmaller_74
+    21300150: godbattleSmaller_75
+    21300152: godbattleSmaller_76
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 300
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: godbattleSmaller_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_3
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_4
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 6750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_5
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 6750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_6
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 6750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_7
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 6750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_12
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 6000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_13
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 6000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_14
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 6000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_15
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 6000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_18
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_19
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 5250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_20
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 5250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_21
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 5250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_22
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 5250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_23
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 5250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_25
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_26
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_27
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_28
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 4500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_29
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 4500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_30
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 4500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_31
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 4500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_33
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_34
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_35
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_36
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 3750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_37
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 3750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_38
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 3750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_39
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 3750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_41
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_42
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_43
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_44
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 3000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_45
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 3000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_46
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 3000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_47
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 3000
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_49
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_50
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_51
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_52
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 2250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_53
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 2250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_54
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 2250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_55
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 2250
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_57
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_58
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_59
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_60
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 1500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_61
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 1500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_62
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 1500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_63
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 1500
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_65
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_66
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_67
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_68
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_69
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_70
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_71
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 750
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_73
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_74
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_75
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: godbattleSmaller_76
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 0
+        width: 2000
+        height: 750
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

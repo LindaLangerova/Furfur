@@ -13,11 +13,12 @@ public class StreamVideo : MonoBehaviour
     private VideoSource videoSource;
 
     private AudioSource audioSource;
-    public bool videoFinished = false;
+    public bool videoFinished;
 
     // Use this for initialization
     void Start()
     {
+        videoFinished = false;
         Application.runInBackground = true;
         StartCoroutine(playVideo());
     }

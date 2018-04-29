@@ -18,14 +18,13 @@ public class BossFightC : MonoBehaviour {
     private Rigidbody2D _bossRigidbody;
 
     private const int BOSS_LIVES = 20;
-    private const int PLAYER_LIVES = 3;
     
 
     private Inventory _inventory;
     public Sprite BulletSprite;
 
     private Slider _slider;
-    private Text _uiText;
+
     private Animator BossAnimator;
 
     public BulletCreator _bulletCreator;
@@ -52,9 +51,6 @@ public class BossFightC : MonoBehaviour {
 	    _slider = GameObject.Find("Slider").GetComponent<Slider>();
 	    _slider.maxValue = BOSS_LIVES;
 	    _slider.value = BOSS_LIVES;
-
-	    _uiText = GameObject.Find("UIText").GetComponent<Text>();
-
 	}
 	
 	// Update is called once per frame

@@ -28,6 +28,39 @@ MonoBehaviour:
   - {fileID: 114594125844622938}
   - {fileID: 114452328746183202}
   - {fileID: 114224895762221970}
+  - {fileID: 114398810502775590}
+  - {fileID: 114095235932281534}
+  - {fileID: 114506852228736014}
+  - {fileID: 114761027102123276}
+  - {fileID: 114105026296538826}
+  - {fileID: 114920855570934666}
+  - {fileID: 114713162579157476}
+  - {fileID: 114499903762649360}
+  - {fileID: 114618270386161982}
+  - {fileID: 114243436345313658}
+  - {fileID: 114254045964191166}
+  - {fileID: 114599287027667346}
+  - {fileID: 114409438659420202}
+  - {fileID: 114687138622053586}
+  - {fileID: 114652380529241482}
+  - {fileID: 114316558713616812}
+  - {fileID: 114970190696973706}
+  - {fileID: 114665280339444954}
+  - {fileID: 114927641858603396}
+  - {fileID: 114081989754876104}
+  - {fileID: 114472049848194122}
+  - {fileID: 114559224687682538}
+  - {fileID: 114053455369871120}
+  - {fileID: 114954434967012514}
+  - {fileID: 114104916637957544}
+  - {fileID: 114250613472755688}
+  - {fileID: 114833822504104916}
+  - {fileID: 114293839041286164}
+  - {fileID: 114516442763772620}
+  - {fileID: 114685768092980682}
+  - {fileID: 114099314591367150}
+  - {fileID: 114813598585471472}
+  - {fileID: 114326543609375036}
 --- !u!114 &114026170469526374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,6 +75,90 @@ MonoBehaviour:
   description: 3TalkToPelican
   satisfied: 0
   hash: -737605018
+--- !u!114 &114053455369871120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSTalkToZeus
+  m_EditorClassIdentifier: 
+  description: JSTalkToZeus
+  satisfied: 0
+  hash: 1213914528
+--- !u!114 &114081989754876104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSSatisfyNodegod
+  m_EditorClassIdentifier: 
+  description: JSSatisfyNodegod
+  satisfied: 0
+  hash: -995208970
+--- !u!114 &114095235932281534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaSpokeToJava
+  m_EditorClassIdentifier: 
+  description: JavaSpokeToJava
+  satisfied: 0
+  hash: 1891793671
+--- !u!114 &114099314591367150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSEquality2
+  m_EditorClassIdentifier: 
+  description: JSEquality2
+  satisfied: 0
+  hash: -75872113
+--- !u!114 &114104916637957544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSTalkToNodegod
+  m_EditorClassIdentifier: 
+  description: JSTalkToNodegod
+  satisfied: 0
+  hash: 1724622276
+--- !u!114 &114105026296538826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaObtainGarbage1
+  m_EditorClassIdentifier: 
+  description: JavaObtainGarbage1
+  satisfied: 0
+  hash: 376626861
 --- !u!114 &114117531427551242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,6 +215,90 @@ MonoBehaviour:
   description: ObtainLadder
   satisfied: 0
   hash: 283043210
+--- !u!114 &114243436345313658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaFillMug
+  m_EditorClassIdentifier: 
+  description: JavaFillMug
+  satisfied: 0
+  hash: 577973838
+--- !u!114 &114250613472755688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSGetVue
+  m_EditorClassIdentifier: 
+  description: JSGetVue
+  satisfied: 0
+  hash: 1865501986
+--- !u!114 &114254045964191166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaSatisfyRAMeater
+  m_EditorClassIdentifier: 
+  description: JavaSatisfyRAMeater
+  satisfied: 0
+  hash: 1897137370
+--- !u!114 &114293839041286164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSGetChai
+  m_EditorClassIdentifier: 
+  description: JSGetChai
+  satisfied: 0
+  hash: 607523922
+--- !u!114 &114316558713616812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaSpokeToTypeCheck
+  m_EditorClassIdentifier: 
+  description: JavaSpokeToTypeCheck
+  satisfied: 0
+  hash: 2102953747
+--- !u!114 &114326543609375036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSFinish
+  m_EditorClassIdentifier: 
+  description: JSFinish
+  satisfied: 0
+  hash: 1508228587
 --- !u!114 &114398739270113156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,6 +313,34 @@ MonoBehaviour:
   description: BuildLadder
   satisfied: 0
   hash: 2087562579
+--- !u!114 &114398810502775590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: FinishC
+  m_EditorClassIdentifier: 
+  description: FinishC
+  satisfied: 0
+  hash: -517564538
+--- !u!114 &114409438659420202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaSatisfyCEO
+  m_EditorClassIdentifier: 
+  description: JavaSatisfyCEO
+  satisfied: 0
+  hash: 1882243622
 --- !u!114 &114410628574692600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,6 +369,62 @@ MonoBehaviour:
   description: OpenSpecialPointer
   satisfied: 0
   hash: -1171644367
+--- !u!114 &114472049848194122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSTalkToHeimdall
+  m_EditorClassIdentifier: 
+  description: JSTalkToHeimdall
+  satisfied: 0
+  hash: 879364552
+--- !u!114 &114499903762649360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaGCSatisfied
+  m_EditorClassIdentifier: 
+  description: JavaGCSatisfied
+  satisfied: 0
+  hash: -1648109614
+--- !u!114 &114506852228736014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaReturnGarbage1
+  m_EditorClassIdentifier: 
+  description: JavaReturnGarbage1
+  satisfied: 0
+  hash: 2066241940
+--- !u!114 &114516442763772620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSGetSuit
+  m_EditorClassIdentifier: 
+  description: JSGetSuit
+  satisfied: 0
+  hash: -888236737
 --- !u!114 &114540866175121780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,6 +439,20 @@ MonoBehaviour:
   description: SatisfyPrimitiveDatatypes
   satisfied: 0
   hash: -1147205427
+--- !u!114 &114559224687682538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSTalkToLoki
+  m_EditorClassIdentifier: 
+  description: JSTalkToLoki
+  satisfied: 0
+  hash: 429692560
 --- !u!114 &114578553671634154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,6 +481,104 @@ MonoBehaviour:
   description: SatisfyMemoryBoy
   satisfied: 0
   hash: -466516529
+--- !u!114 &114599287027667346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaSpeakToCEO
+  m_EditorClassIdentifier: 
+  description: JavaSpeakToCEO
+  satisfied: 0
+  hash: 157517973
+--- !u!114 &114618270386161982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaGetMug
+  m_EditorClassIdentifier: 
+  description: JavaGetMug
+  satisfied: 0
+  hash: 955918151
+--- !u!114 &114652380529241482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaFinish
+  m_EditorClassIdentifier: 
+  description: JavaFinish
+  satisfied: 0
+  hash: -262931917
+--- !u!114 &114665280339444954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSSatisfyLoki
+  m_EditorClassIdentifier: 
+  description: JSSatisfyLoki
+  satisfied: 0
+  hash: -1458544490
+--- !u!114 &114685768092980682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSEquality1
+  m_EditorClassIdentifier: 
+  description: JSEquality1
+  satisfied: 0
+  hash: 1651710261
+--- !u!114 &114687138622053586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaSatisfyJava
+  m_EditorClassIdentifier: 
+  description: JavaSatisfyJava
+  satisfied: 0
+  hash: 1979852656
+--- !u!114 &114713162579157476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaObtainGarbage3
+  m_EditorClassIdentifier: 
+  description: JavaObtainGarbage3
+  satisfied: 0
+  hash: -126042239
 --- !u!114 &114724466208708242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,6 +607,20 @@ MonoBehaviour:
   description: ObtainWaterBottle
   satisfied: 0
   hash: 48883301
+--- !u!114 &114761027102123276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaReturnGarbage2
+  m_EditorClassIdentifier: 
+  description: JavaReturnGarbage2
+  satisfied: 0
+  hash: -501151698
 --- !u!114 &114777046904157912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,6 +649,34 @@ MonoBehaviour:
   description: 5TalkToPelican
   satisfied: 0
   hash: 751518160
+--- !u!114 &114813598585471472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSHaveEquality
+  m_EditorClassIdentifier: 
+  description: JSHaveEquality
+  satisfied: 0
+  hash: 1010871863
+--- !u!114 &114833822504104916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSGetThor
+  m_EditorClassIdentifier: 
+  description: JSGetThor
+  satisfied: 0
+  hash: -48324842
 --- !u!114 &114899026146741852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,3 +691,59 @@ MonoBehaviour:
   description: 4TalkToPelican
   satisfied: 0
   hash: -1312513882
+--- !u!114 &114920855570934666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JavaObtainGarbage2
+  m_EditorClassIdentifier: 
+  description: JavaObtainGarbage2
+  satisfied: 0
+  hash: -1887727849
+--- !u!114 &114927641858603396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSSatisfyZeus
+  m_EditorClassIdentifier: 
+  description: JSSatisfyZeus
+  satisfied: 0
+  hash: -120181850
+--- !u!114 &114954434967012514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSTalkToMPJ
+  m_EditorClassIdentifier: 
+  description: JSTalkToMPJ
+  satisfied: 0
+  hash: -356531828
+--- !u!114 &114970190696973706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: JSSatisfyHeimdall
+  m_EditorClassIdentifier: 
+  description: JSSatisfyHeimdall
+  satisfied: 0
+  hash: -65061443
