@@ -1,0 +1,112 @@
+Star Wars Java:
+1) 
+Ahaa... new vict... customer! Welcom and make yourself at home. You came to the world where anything is possible... So my dear... what do you want? Weapons? Drugs? I have anything! ...for a price...
+(SpokeToJava)
+
+2) (after spokeToTypeCheck)
+...soo you are looking for ID card, hmm? Sure I have it! But.. ehm.. you don't have money nor anything interesting for exchange, do you? 
+
+3) (after Satisfy CEO) 
+Well well, what do we have here? This bike seems to be enough for an ID card. Here is it. It was a pleasure to deal with you.
+(SatisfyJava)
+
+4) (after SatisfyJava)
+Can I offer you something else?
+
+
+GarbageCollector:
+1)
+So bad... I've been collecting the garbage and suddenly sandstorm appeared and scattered the garbage around... I can't handle this alone...
+
+2) (after obtaining 1 garbage)
+You have some of the lost garbage? Great, thanks a lot! But there are more of them.. 
+(ReturnGarbage1)
+
+(after returnGarbage1 & !obtain2Garbage)Good job! But there is still some garbage left...
+
+3) (after obtaining 2 garbage)
+You have another of the lost garbage? Great, thanks a lot! But I'm pretty sure that's not all.. 
+(ReturnGarbage2)
+
+(after returnGarbage2 & !obtain3Garbage)Good job! But there is still some garbage left...
+
+4) (after obtaining 3 garbage)
+Amazing! This should be the last one. I am reall grateful to you...maybe you might appreciate this key as a reward. 
+(GCSatisfied)
+
+5) (after GCSatisfied)
+I know I know... I should go work again.
+
+
+RAMeater
+1)
+Nom nom nom... get away! One day, someone threw here this...cup with something very powerful... even more than this ram... but it's empty... you know, I have to live on something!
+
+2) (after FillMug)
+Nom nom no.... what? My precious you have that magical liquid! Give it to me! Now! ...you can do whatever you want with this ram, I don't need it any more. 
+(SatisfyRAMeater)
+
+
+CEO
+1)
+JUST-IN-TIME! What you don't understand??! Ah, sorry, too much work... I have to manage everything and moreover I lost my lovely ram few days ago... I don't have time to go look for him, but he was my best friend... And now all my work goes too slowly...
+(SpeakToCEO)
+
+2) (after SpeakToCEO)
+So...? Have you found my ram? Can't make everything just in time, without him, my life is ruined! 
+
+3) (after SatisfyRAMeater)
+No way, this is my ram! And just in time! Love you little dragon, you made me a big favor, I guess... I know! Let's take my motorbike, it's just gathering dust here.
+(satisfyCEO)
+
+4) Just in time. As always.
+
+
+TypeCheck
+1) 
+Stop! Type check. Submit your ID card. ... You don't have any? So get out of here!
+
+2) (after satisfyJava)
+Stop! Type control. Submit your ID card. ... Everything's allright, you can pass...
+
+
+CoffeeRiver
+1) 
+Hmm...interesting... the coffee is flowing on and on and on... 
+
+2) (after getMug)
+Obviously, this cup was made to be filled with coffee.
+(fillMug)
+
+3) (after fillMug)
+Hmm...interesting... the coffee is flowing on and on and on... 
+
+
+Garbage
+1) Uh... who left this here?
+(obtainGarbage1)
+
+2) (after obtainGarbage1)
+This is disgusting...
+(obtainGarbage2)
+
+3) (after obtainGarbage2)
+No way... come on guys, let's use trash cans!
+(obtainGarbage3)
+
+
+CoffeeCup
+1) Hmm hmm okay so let's take this and I will se what I can do...
+(getMug)
+
+
+RAM
+1) Beee
+
+
+Jawa 350
+1) Very nice two stroke twin cylinder motorcycle... So sad that dragons can't ride motorcycles...
+
+Poklop
+1) Seems like it's locked...
+2) Cool, the key fits here.

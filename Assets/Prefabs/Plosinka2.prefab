@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4756036033988858}
   - component: {fileID: 212438244436504938}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4715623352657310}
   - component: {fileID: 212893384787339194}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   - component: {fileID: 4923308977934504}
   - component: {fileID: 212606980885567110}
   - component: {fileID: 61597573120297434}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

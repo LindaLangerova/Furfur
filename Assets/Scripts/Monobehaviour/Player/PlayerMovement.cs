@@ -6,10 +6,10 @@ using System.Collections;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
-    private Collider2D myCollider;
+    private BoxCollider2D myCollider;
     private Rigidbody2D rigidBody;
-    public bool grounded = false;
-    public bool canJump = false;
+    public bool grounded;
+    public bool canJump;
     public float jumpForce = 23.0f;
     public bool pushed;
 
@@ -19,12 +19,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] protected LayerMask layerMask;
 
     public float moveSpeed = 12.0F;
-
     private SpriteRenderer spriteRenderer;
+
 
     protected void Awake()
     {
-        myCollider = GetComponent<Collider2D>();
+        myCollider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
 
         rigidBody = GetComponent<Rigidbody2D>();
@@ -45,13 +45,14 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("spacePressed", false);
         }
+
+        grounded = Physics2D.Raycast(rigidBody.position + myCollider.offset, Vector2.down, 0.62f, layerMask)
+                   && Math.Abs(rigidBody.velocity.y) < 0.1;
     }
 
     protected void FixedUpdate()
     {
         Movement();
-
-        grounded = Math.Abs(Math.Abs(rigidBody.velocity.y)) < 0.01;
 
         animator.SetBool("grounded", grounded);
         animator.SetFloat("velocityX", Math.Abs(rigidBody.velocity.x));

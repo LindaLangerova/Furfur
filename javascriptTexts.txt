@@ -1,0 +1,102 @@
+Javascript:
+
+MPJ:
+1)
+Gooood monday morning... dragon?! Want to join my dragon squad? No? Then you should first go anywhere else...  
+
+I am looking for Blue scream of death, maybe you could know him.
+
+Jeeez that one is a huge monster. I promise I've already heared of him... But maybe my lovely Flufflekins might be a bigger problem for you at the moment.
+
+Who? 
+
+The giant robodragon living in the mountain. If you want to go looking for your prey, you will need to get over him. But still you need to get enough karma to get up there. The mountain is protected by several gods as Heimdall, Loki, Zeus and the highest one.
+
+Heimdall? Loki? The heck are you talking about? Why there are so many of them? 
+
+Come on, It's 2018, no one leaves his mountain protected by only one god.
+
+Oh god...
+
+2) (After TalkToMPJ)
+You seem falsy... I mean your expression is undefined. Cheer up!
+
+
+
+Archer:
+1)
+I swear THIS platform was there, but I can't reach it right now, I don't understand...
+2) (After GetSuit)
+Wooooaaah! I am now the Arrow! And THIS is clear now, that platform was there all the time.
+Arrow:
+1) I am the Arrow! THIS platform was there all the time.
+
+
+Suit:
+Cool, I always wanted to cosplay DC hero, I'll take this suit.
+
+
+Heimdal:
+1) Who is distubing the peace of Heimdall?! Hmmm you want to pass? Then you must satisfy his needs!
+(After Get)
+2) Thank you little dragon, the path is now clear.
+
+
+Loki:
+1) The idol of Loki is glowing some energy that prevents you from continuing.
+2) Thank you little dragon, the path is now clear.
+
+
+Zeus:
+1) Lightening around this one sends you vibres. It's obvious it belongs to Zeus.
+2) Thaks creature! You are worthy to pass.
+
+
+NodeGod:
+1) The highest tomb is quaking. You are the first being who got so far! What are you? Not an ordinary dragon, not a god. You want to compare with me? Pfff... You better tell that wombat to improve his e-shop... It's disgusting.
+(GetOneEquality)
+The highest tomb is quaking. You are the first being who got so far! What are you? Not an ordinary dragon, not a god. You want to become me? How rude! Pfff... 
+(GetSecondEquality)
+The highest tomb is quaking. You are the first being who got so far! What are you? Not an ordinary dragon, not a god. You want to compare with me like that? Pfff...
+(GetThirdEquality)
+2) Seems like you can compare with the highest god... An unexpected reaction!! The NodeGod appears!
+
+Wombat:
+1) I Poop Squares, want to See? 
+
+2) (After TalkToHeimdall) 
+Hey buddy, how can I assist you? I have everything you ever wanted, if you buy one, you get 3 gratis! So?
+
+Emmm... maybe something that Heimdall might appreciate? 
+
+He will love this brand new Vue to watch over Ragnarok and the mountain while doing this part-time job.
+(GetVue)
+
+
+3) (After TalkToLoki)
+Hey buddy, how can I assist you? I have everything you ever wanted, if you buy one, you get 3 gratis! So?
+
+Emmm... maybe something that Loki might appreciate? 
+
+Loki? No way he needs his brother, let's take this Thor package. 
+(GetThor)
+
+
+4) (After TalkToZeus)
+Hey buddy, how can I assist you? I have everything you ever wanted, if you buy one, you get 3 gratis! So?
+
+Emmm... maybe something that Loki might appreciate? 
+
+Zeus is a true gourmet. You are lucky I have just what he needs to enjoy his time with Webstrom. 
+Premium quality Chai with Jasmine. 
+(GetChai)
+ 
+5) (After TalkToNodeGod)
+Hey buddy, how can I assist you? I have everything you ever wanted, if you buy one, you get 3 gratis! So?
+
+Emmm... Well the highest god said that the e-quality of your shop is a bit poor. So maybe I could give him something that will change his mind and make him happy?
+
+Ahh these fussy gods... Let's give him this equality, to see how he will React.
+(GetEquality)
+
+6) I Poop Squares, want to See? 

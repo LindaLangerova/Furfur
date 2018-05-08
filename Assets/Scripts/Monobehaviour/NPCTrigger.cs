@@ -30,8 +30,11 @@ public class NPCTrigger : MonoBehaviour
 	    {
 	        if (_playerCollider.IsTouching(_npcCollider))
 	        {
-	            _interactable.Interact();
+	            SoundManager.PlayPickSound();
+                _interactable.Interact();
             }
-        } 
-	}
+	        else SoundManager.PlayErrorPickSound(FindObjectOfType<TextManager>().instructions.Count);
+        }
+        
+    }
 }

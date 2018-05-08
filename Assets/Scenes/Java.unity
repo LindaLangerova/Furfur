@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 4870358}
   - component: {fileID: 4870357}
   - component: {fileID: 4870356}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14016626}
   - component: {fileID: 14016627}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14789303}
   - component: {fileID: 14789304}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -472,7 +472,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14827952}
   - component: {fileID: 14827953}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 32351940}
   - component: {fileID: 32351939}
   - component: {fileID: 32351938}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -677,7 +677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 37790993}
   - component: {fileID: 37790994}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1065,7 +1065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 38799814}
   - component: {fileID: 38799815}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1141,7 +1141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 54030702}
   - component: {fileID: 54030703}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1219,7 +1219,7 @@ GameObject:
   - component: {fileID: 56308477}
   - component: {fileID: 56308476}
   - component: {fileID: 56308475}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1239,6 +1239,7 @@ Transform:
   m_Children:
   - {fileID: 1162248965}
   - {fileID: 564372069}
+  - {fileID: 1985682690}
   m_Father: {fileID: 2019292846}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1597,7 +1598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 68024297}
   - component: {fileID: 68024298}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1948,7 +1949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 107894418}
   - component: {fileID: 107894419}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2039,7 +2040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 110221454}
   - component: {fileID: 110221455}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2124,21 +2125,6 @@ MonoBehaviour:
   condition: {fileID: 114920855570934666, guid: 5d9df7ae3943e0f4e906aa231c205528,
     type: 2}
   satisfied: 1
---- !u!114 &115511602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd35348a562eb8342969ea3c991d240f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: Already satisfied
-  requiredConditions:
-  - {fileID: 464775185}
-  reactionCollection: {fileID: 846583882}
 --- !u!114 &133743118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2238,7 +2224,7 @@ GameObject:
   - component: {fileID: 142902947}
   - component: {fileID: 142902946}
   - component: {fileID: 142902945}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2697,7 +2683,7 @@ GameObject:
   - component: {fileID: 195536247}
   - component: {fileID: 195536246}
   - component: {fileID: 195536245}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3035,7 +3021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 209900933}
   - component: {fileID: 209900934}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3173,7 +3159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 256206637}
   - component: {fileID: 256206638}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3308,7 +3294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 268556215}
   - component: {fileID: 268556216}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3506,7 +3492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 287020868}
   - component: {fileID: 287020869}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3673,7 +3659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 289734708}
   - component: {fileID: 289734709}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3873,7 +3859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 304431124}
   - component: {fileID: 304431125}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3979,7 +3965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 305336561}
   - component: {fileID: 305336562}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4055,7 +4041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 312535305}
   - component: {fileID: 312535306}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4150,7 +4136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 333504730}
   - component: {fileID: 333504731}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4228,7 +4214,7 @@ GameObject:
   - component: {fileID: 336572308}
   - component: {fileID: 336572307}
   - component: {fileID: 336572306}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4438,7 +4424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 388843567}
   - component: {fileID: 388843568}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4504,6 +4490,109 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &389156169
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2082210461}
+    m_Modifications:
+    - target: {fileID: 114508834434052678, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: reactions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 9.398
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 14.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 212960793525233264, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0964278afef35844388c26c57ddf7d3a,
+        type: 3}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.104912974
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.104912974
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.0491297
+      objectReference: {fileID: 0}
+    - target: {fileID: 212960793525233264, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114508834434052678, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: reactions.Array.data[0]
+      value: 
+      objectReference: {fileID: 703940200}
+    - target: {fileID: 1333061454705016, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1333061454705016, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_Name
+      value: CEOsatisfied
+      objectReference: {fileID: 0}
+    - target: {fileID: 61724166535229628, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 8.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61724166535229628, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 18.029999
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &389156170 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62,
+    type: 2}
+  m_PrefabInternal: {fileID: 389156169}
+--- !u!1 &389156171 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1333061454705016, guid: e3b57a40349a39e42910c99165eecb62,
+    type: 2}
+  m_PrefabInternal: {fileID: 389156169}
 --- !u!1 &390953571
 GameObject:
   m_ObjectHideFlags: 0
@@ -4558,20 +4647,6 @@ MonoBehaviour:
   requiredConditions:
   - {fileID: 1961631662}
   reactionCollection: {fileID: 1268981656}
---- !u!114 &392703039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Just in time. As always.
-  textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &393532815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4670,7 +4745,7 @@ GameObject:
   - component: {fileID: 404249141}
   - component: {fileID: 404249140}
   - component: {fileID: 404249139}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4806,7 +4881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 407599780}
   - component: {fileID: 407599781}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5158,7 +5233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 424054716}
   - component: {fileID: 424054717}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5423,7 +5498,7 @@ GameObject:
   - component: {fileID: 450360334}
   - component: {fileID: 450360333}
   - component: {fileID: 450360332}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5668,20 +5743,6 @@ Transform:
   m_Father: {fileID: 1005907896}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!114 &464775185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: JavaSatisfyCEO
-  satisfied: 1
-  hash: 1882243622
 --- !u!1 &466640628
 GameObject:
   m_ObjectHideFlags: 0
@@ -5751,7 +5812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476328968}
   - component: {fileID: 476328969}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5997,6 +6058,7 @@ MonoBehaviour:
   description: Return second
   requiredConditions:
   - {fileID: 811478283}
+  - {fileID: 1299662236}
   reactionCollection: {fileID: 724629633}
 --- !u!1 &509127252
 GameObject:
@@ -6008,7 +6070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 509127253}
   - component: {fileID: 509127254}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6086,7 +6148,7 @@ GameObject:
   - component: {fileID: 511407929}
   - component: {fileID: 511407928}
   - component: {fileID: 511407927}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6210,7 +6272,7 @@ GameObject:
   - component: {fileID: 511644294}
   - component: {fileID: 511644293}
   - component: {fileID: 511644292}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6527,7 +6589,7 @@ GameObject:
   - component: {fileID: 536310467}
   - component: {fileID: 536310466}
   - component: {fileID: 536310465}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6677,7 +6739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 554928331}
   - component: {fileID: 554928332}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6899,7 +6961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 564372069}
   - component: {fileID: 564372070}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7417,7 +7479,7 @@ GameObject:
   - component: {fileID: 602359780}
   - component: {fileID: 602359783}
   - component: {fileID: 602359782}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7641,21 +7703,6 @@ MonoBehaviour:
   message: Good job! But there is still some garbage left...
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
---- !u!114 &653185021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd35348a562eb8342969ea3c991d240f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: Already satisfied
-  requiredConditions:
-  - {fileID: 1602816485}
-  reactionCollection: {fileID: 1482362421}
 --- !u!114 &657587160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7679,7 +7726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 666240499}
   - component: {fileID: 666240500}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7757,7 +7804,7 @@ GameObject:
   - component: {fileID: 673372448}
   - component: {fileID: 673372447}
   - component: {fileID: 673372446}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7881,7 +7928,7 @@ GameObject:
   - component: {fileID: 692999231}
   - component: {fileID: 692999230}
   - component: {fileID: 692999229}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8007,6 +8054,113 @@ MonoBehaviour:
   condition: {fileID: 114254045964191166, guid: 5d9df7ae3943e0f4e906aa231c205528,
     type: 2}
   satisfied: 1
+--- !u!1001 &701484625
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2082210461}
+    m_Modifications:
+    - target: {fileID: 114508834434052678, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: reactions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 15.249
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1333061454705016, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_Name
+      value: RAMeaterSatisfied
+      objectReference: {fileID: 0}
+    - target: {fileID: 114508834434052678, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: reactions.Array.data[0]
+      value: 
+      objectReference: {fileID: 1494821337}
+    - target: {fileID: 1333061454705016, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212960793525233264, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b733e2f18b7adbc47a86e8717d95ae1a,
+        type: 3}
+    - target: {fileID: 212960793525233264, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.1783424
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.1783424
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.783424
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &701484626 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62,
+    type: 2}
+  m_PrefabInternal: {fileID: 701484625}
+--- !u!1 &701484627 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1333061454705016, guid: e3b57a40349a39e42910c99165eecb62,
+    type: 2}
+  m_PrefabInternal: {fileID: 701484625}
+--- !u!114 &703940200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Just in time. As always.
+  textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
+  delay: 0
 --- !u!1 &704237739
 GameObject:
   m_ObjectHideFlags: 0
@@ -8152,7 +8306,7 @@ GameObject:
   - component: {fileID: 720818177}
   - component: {fileID: 720818176}
   - component: {fileID: 720818175}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8524,7 +8678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760031438}
   - component: {fileID: 760031439}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8826,6 +8980,115 @@ MonoBehaviour:
   condition: {fileID: 114243436345313658, guid: 5d9df7ae3943e0f4e906aa231c205528,
     type: 2}
   satisfied: 1
+--- !u!1 &777813313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 777813315}
+  - component: {fileID: 777813314}
+  m_Layer: 0
+  m_Name: SoundRun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &777813314
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 777813313}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a85f041e885c2594ab40f6f5505087c0, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 0.9
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 21
+  DopplerLevel: 0.49
+  MinDistance: 1
+  MaxDistance: 498.68
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.674
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &777813315
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 777813313}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1184945747}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &781247642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8851,7 +9114,7 @@ GameObject:
   - component: {fileID: 797723558}
   - component: {fileID: 797723557}
   - component: {fileID: 797723556}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8978,7 +9241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 806275752}
   - component: {fileID: 806275753}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9082,7 +9345,7 @@ GameObject:
   m_Component:
   - component: {fileID: 816326948}
   - component: {fileID: 816326949}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9287,7 +9550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 836595392}
   - component: {fileID: 836595393}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9541,48 +9804,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 850041751}
---- !u!1 &846583880
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 846583881}
-  - component: {fileID: 846583882}
-  m_Layer: 0
-  m_Name: satisfied
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &846583881
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 846583880}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1996462666}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &846583882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 846583880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57f46b8100fd8254c8431e442bfa3fd2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reactions:
-  - {fileID: 392703039}
 --- !u!1 &850032921
 GameObject:
   m_ObjectHideFlags: 0
@@ -10336,7 +10557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 918257505}
   - component: {fileID: 918257506}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10522,7 +10743,7 @@ GameObject:
   - component: {fileID: 937253174}
   - component: {fileID: 937253173}
   - component: {fileID: 937253172}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10808,7 +11029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 956055651}
   - component: {fileID: 956055652}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11235,7 +11456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 998146621}
   - component: {fileID: 998146622}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11661,7 +11882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1012845652}
   - component: {fileID: 1012845653}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11828,6 +12049,8 @@ MonoBehaviour:
   - {fileID: 700056713}
   - {fileID: 2037960949}
   - {fileID: 1750546134}
+  - {fileID: 1791151808}
+  - {fileID: 1762071438}
 --- !u!1 &1024121628
 GameObject:
   m_ObjectHideFlags: 0
@@ -11838,7 +12061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1024121629}
   - component: {fileID: 1024121630}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12073,7 +12296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1047960572}
   - component: {fileID: 1047960573}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12165,7 +12388,7 @@ GameObject:
   - component: {fileID: 1054547236}
   - component: {fileID: 1054547235}
   - component: {fileID: 1054547234}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12759,7 +12982,7 @@ GameObject:
   - component: {fileID: 1117222343}
   - component: {fileID: 1117222342}
   - component: {fileID: 1117222341}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13013,7 +13236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1134011490}
   - component: {fileID: 1134011491}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13089,7 +13312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1146629566}
   - component: {fileID: 1146629567}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13324,7 +13547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1162248965}
   - component: {fileID: 1162248966}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13657,7 +13880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1175851757}
   - component: {fileID: 1175851758}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13737,6 +13960,36 @@ MonoBehaviour:
   condition: {fileID: 114713162579157476, guid: 5d9df7ae3943e0f4e906aa231c205528,
     type: 2}
   satisfied: 1
+--- !u!1 &1184945746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1184945747}
+  m_Layer: 9
+  m_Name: Sounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1184945747
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184945746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 777813315}
+  - {fileID: 1400116665}
+  m_Father: {fileID: 1419268433}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1191549460
 GameObject:
   m_ObjectHideFlags: 0
@@ -14176,7 +14429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1246398904}
   - component: {fileID: 1246398905}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14252,7 +14505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1248377409}
   - component: {fileID: 1248377410}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14345,7 +14598,7 @@ GameObject:
   - component: {fileID: 1251372417}
   - component: {fileID: 1251372416}
   - component: {fileID: 1251372415}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14482,7 +14735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1260115877}
   - component: {fileID: 1260115878}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14558,7 +14811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1268401828}
   - component: {fileID: 1268401829}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14671,6 +14924,8 @@ MonoBehaviour:
   - {fileID: 1875892439}
   - {fileID: 957354526}
   - {fileID: 1574693516}
+  - {fileID: 2042669710}
+  - {fileID: 2116003905}
 --- !u!114 &1269318542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14857,7 +15112,7 @@ GameObject:
   - component: {fileID: 1292735594}
   - component: {fileID: 1292735593}
   - component: {fileID: 1292735592}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14983,6 +15238,20 @@ MonoBehaviour:
   message: Uh... who left this here?
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
+--- !u!114 &1299662236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: JavaReturnGarbage1
+  satisfied: 1
+  hash: 2066241940
 --- !u!1 &1302902314
 GameObject:
   m_ObjectHideFlags: 0
@@ -15066,7 +15335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1311456794}
   - component: {fileID: 1311456795}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15142,7 +15411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1314270177}
   - component: {fileID: 1314270178}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15279,7 +15548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1322243768}
   - component: {fileID: 1322243769}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15428,7 +15697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1328215784}
   - component: {fileID: 1328215785}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15591,7 +15860,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1346705251}
   - component: {fileID: 1346705252}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15753,7 +16022,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1361491169}
   - component: {fileID: 1361491170}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16264,6 +16533,167 @@ Transform:
   m_Father: {fileID: 262595745}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1399278174
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 82417278250101696, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 04891a008edfc13419f958ddc895fa37, type: 3}
+    - target: {fileID: 82417278250101696, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1400116664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1400116665}
+  - component: {fileID: 1400116666}
+  m_Layer: 9
+  m_Name: SoundJump
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1400116665
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400116664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1184945747}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1400116666
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400116664}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 744c3107bc44c084cb15a3b439ee5628, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 0.65
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1401498963
 GameObject:
   m_ObjectHideFlags: 0
@@ -16354,7 +16784,7 @@ GameObject:
   - component: {fileID: 1405369049}
   - component: {fileID: 1405369048}
   - component: {fileID: 1405369047}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16544,6 +16974,11 @@ GameObject:
   m_PrefabParentObject: {fileID: 1861856337237248, guid: 509bdfdf714d42f4b92a1a5007348ab9,
     type: 2}
   m_PrefabInternal: {fileID: 1882480150}
+--- !u!4 &1419268433 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4969388258221534, guid: 509bdfdf714d42f4b92a1a5007348ab9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1882480150}
 --- !u!1 &1424818286 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1333061454705016, guid: e3b57a40349a39e42910c99165eecb62,
@@ -16634,7 +17069,7 @@ GameObject:
   - component: {fileID: 1431740195}
   - component: {fileID: 1431740194}
   - component: {fileID: 1431740193}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16829,7 +17264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1459901975}
   - component: {fileID: 1459901976}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16910,11 +17345,11 @@ Prefab:
     - target: {fileID: 114104436670528570, guid: e3b57a40349a39e42910c99165eecb62,
         type: 2}
       propertyPath: conditionCollections.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 9.481
+      value: 9.497
       objectReference: {fileID: 0}
     - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
       propertyPath: m_LocalPosition.y
@@ -17005,7 +17440,7 @@ Prefab:
         type: 2}
       propertyPath: conditionCollections.Array.data[0]
       value: 
-      objectReference: {fileID: 115511602}
+      objectReference: {fileID: 392177027}
     - target: {fileID: 114508834434052678, guid: e3b57a40349a39e42910c99165eecb62,
         type: 2}
       propertyPath: reactions.Array.data[0]
@@ -17020,7 +17455,7 @@ Prefab:
         type: 2}
       propertyPath: conditionCollections.Array.data[1]
       value: 
-      objectReference: {fileID: 392177027}
+      objectReference: {fileID: 719000829}
     - target: {fileID: 114104436670528570, guid: e3b57a40349a39e42910c99165eecb62,
         type: 2}
       propertyPath: conditionCollections.Array.data[2]
@@ -17029,6 +17464,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1465843987 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1333061454705016, guid: e3b57a40349a39e42910c99165eecb62,
+    type: 2}
+  m_PrefabInternal: {fileID: 1465843986}
 --- !u!114 &1470212749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17072,48 +17512,20 @@ MonoBehaviour:
   condition: {fileID: 114599287027667346, guid: 5d9df7ae3943e0f4e906aa231c205528,
     type: 2}
   satisfied: 1
---- !u!1 &1482362419
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1482362420}
-  - component: {fileID: 1482362421}
-  m_Layer: 0
-  m_Name: Satisfied
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1482362420
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1482362419}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 113097309}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1482362421
+--- !u!114 &1494821337
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1482362419}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57f46b8100fd8254c8431e442bfa3fd2, type: 3}
+  m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reactions:
-  - {fileID: 1836694175}
+  message: Nom nom nom...
+  textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
+  delay: 0
 --- !u!1 &1495918668
 GameObject:
   m_ObjectHideFlags: 0
@@ -17228,7 +17640,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.52, y: 0}
+  m_Offset: {x: 2.52, y: 35.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -17239,7 +17651,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.24, y: 34.24}
+  m_Size: {x: 5.24, y: 102.15}
   m_EdgeRadius: 0
 --- !u!1 &1501016512
 GameObject:
@@ -17329,7 +17741,7 @@ Prefab:
     - target: {fileID: 114104436670528570, guid: e3b57a40349a39e42910c99165eecb62,
         type: 2}
       propertyPath: conditionCollections.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
       propertyPath: m_LocalPosition.x
@@ -17434,12 +17846,16 @@ Prefab:
         type: 2}
       propertyPath: conditionCollections.Array.data[0]
       value: 
-      objectReference: {fileID: 653185021}
+      objectReference: {fileID: 1807040408}
     - target: {fileID: 114104436670528570, guid: e3b57a40349a39e42910c99165eecb62,
         type: 2}
       propertyPath: conditionCollections.Array.data[1]
       value: 
       objectReference: {fileID: 1807040408}
+    - target: {fileID: 1333061454705016, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
   m_IsPrefabParent: 0
@@ -17589,7 +18005,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 17.69, y: 40.129997}
+    oldSize: {x: 17.69, y: 40.13}
     newSize: {x: 17.69, y: 40.129997}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -17701,7 +18117,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 38.789997, y: 30.019999}
+    oldSize: {x: 38.79, y: 30.02}
     newSize: {x: 38.789997, y: 30.019999}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -17720,7 +18136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1542986920}
   - component: {fileID: 1542986921}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17798,7 +18214,7 @@ GameObject:
   - component: {fileID: 1558332709}
   - component: {fileID: 1558332708}
   - component: {fileID: 1558332707}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18268,7 +18684,7 @@ Transform:
   m_Father: {fileID: 68706788}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1602816485
+--- !u!114 &1608521866
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -18279,9 +18695,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e3c1b22bcbb83e4fa82a62c1f6e913c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: JavaSatisfyRAMeater
+  description: JavaReturnGarbage2
   satisfied: 1
-  hash: 1897137370
+  hash: -501151698
 --- !u!1 &1622227570
 GameObject:
   m_ObjectHideFlags: 0
@@ -18367,7 +18783,7 @@ GameObject:
   - component: {fileID: 1625720575}
   - component: {fileID: 1625720574}
   - component: {fileID: 1625720573}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18859,7 +19275,7 @@ GameObject:
   - component: {fileID: 1657465180}
   - component: {fileID: 1657465179}
   - component: {fileID: 1657465178}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19158,7 +19574,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1701800269}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19203,7 +19619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1702866461}
   - component: {fileID: 1702866462}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19281,7 +19697,7 @@ GameObject:
   - component: {fileID: 1706393907}
   - component: {fileID: 1706393906}
   - component: {fileID: 1706393905}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19402,6 +19818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1707146660}
   - component: {fileID: 1707146659}
+  - component: {fileID: 1707146661}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -19433,6 +19850,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1707146661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1707146658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1cbb295b8318ee4d828185412626fb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 1419268427}
 --- !u!1001 &1711505414
 Prefab:
   m_ObjectHideFlags: 0
@@ -19717,7 +20146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1733280676}
   - component: {fileID: 1733280677}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19798,7 +20227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1740320853}
   - component: {fileID: 1740320854}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20003,7 +20432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1756318210}
   - component: {fileID: 1756318211}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20112,6 +20541,20 @@ MonoBehaviour:
     ride motorcycles...
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
+--- !u!114 &1762071438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99810693d96475419d3426759d51659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0
+  gameObject: {fileID: 1059181830}
+  activeState: 0
 --- !u!1 &1782452839 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1692591473520614, guid: 4328c0add05a0e948b9d061bedd5e89c,
@@ -20213,6 +20656,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1791151808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99810693d96475419d3426759d51659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0
+  gameObject: {fileID: 701484627}
+  activeState: 1
 --- !u!114 &1797234251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20310,7 +20767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1808382628}
   - component: {fileID: 1808382629}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20593,20 +21050,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!114 &1836694175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Nom nom nom...
-  textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &1838617219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20646,7 +21089,7 @@ GameObject:
   - component: {fileID: 1841894028}
   - component: {fileID: 1841894027}
   - component: {fileID: 1841894026}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20770,7 +21213,7 @@ GameObject:
   - component: {fileID: 1854583689}
   - component: {fileID: 1854583688}
   - component: {fileID: 1854583687}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20968,6 +21411,11 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114157823305948300, guid: 509bdfdf714d42f4b92a1a5007348ab9,
+        type: 2}
+      propertyPath: layerMask.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 509bdfdf714d42f4b92a1a5007348ab9, type: 2}
   m_IsPrefabParent: 0
@@ -21058,6 +21506,7 @@ MonoBehaviour:
   description: SatisfyGC
   requiredConditions:
   - {fileID: 816918290}
+  - {fileID: 1608521866}
   reactionCollection: {fileID: 466640630}
 --- !u!114 &1912810691
 MonoBehaviour:
@@ -21534,6 +21983,60 @@ MonoBehaviour:
   description: JavaSatisfyRAMeater
   satisfied: 1
   hash: 1897137370
+--- !u!1 &1985682689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1985682690}
+  - component: {fileID: 1985682691}
+  m_Layer: 10
+  m_Name: Zatarasa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1985682690
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1985682689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 56308474}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1985682691
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1985682689}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -18.3, y: -19.3}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.1, y: 48.61}
+  m_EdgeRadius: 0
 --- !u!1 &1988965253
 GameObject:
   m_ObjectHideFlags: 0
@@ -21622,7 +22125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1999371906}
   - component: {fileID: 1999371907}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21698,7 +22201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013169789}
   - component: {fileID: 2013169790}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21776,7 +22279,7 @@ GameObject:
   - component: {fileID: 2014412889}
   - component: {fileID: 2014412888}
   - component: {fileID: 2014412887}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22024,7 +22527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2041124196}
   - component: {fileID: 2041124197}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22090,6 +22593,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &2042669710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99810693d96475419d3426759d51659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0
+  gameObject: {fileID: 389156171}
+  activeState: 1
 --- !u!114 &2059245207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22116,7 +22633,7 @@ GameObject:
   - component: {fileID: 2063633485}
   - component: {fileID: 2063633484}
   - component: {fileID: 2063633483}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22238,7 +22755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2077252865}
   - component: {fileID: 2077252866}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22357,6 +22874,8 @@ Transform:
   - {fileID: 1582725534}
   - {fileID: 293068621}
   - {fileID: 1996462666}
+  - {fileID: 389156170}
+  - {fileID: 701484626}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22370,7 +22889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2087206149}
   - component: {fileID: 2087206150}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22446,7 +22965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2095513947}
   - component: {fileID: 2095513948}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22676,6 +23195,20 @@ Transform:
   m_Father: {fileID: 1005907896}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2116003905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99810693d96475419d3426759d51659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0
+  gameObject: {fileID: 1465843987}
+  activeState: 0
 --- !u!1 &2128760029
 GameObject:
   m_ObjectHideFlags: 0
@@ -22759,7 +23292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2133052767}
   - component: {fileID: 2133052768}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22837,7 +23370,7 @@ GameObject:
   - component: {fileID: 2144041414}
   - component: {fileID: 2144041413}
   - component: {fileID: 2144041412}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

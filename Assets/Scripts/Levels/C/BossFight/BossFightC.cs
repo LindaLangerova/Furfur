@@ -91,6 +91,7 @@ public class BossFightC : MonoBehaviour {
     {
         if (_inventory.ContainsItems())
         {
+            SoundManager.PlayShootSound();
             _inventory.RemoveLast();
             _bulletCreator.SetBullet(_player.transform.position, _playerBoxCollider);
         }
@@ -104,6 +105,7 @@ public class BossFightC : MonoBehaviour {
     void OnWin()
     {
         GameObject.Find("WinReaction").GetComponent<ReactionCollection>().React();
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         _stopped = true;
         BossMovement = 0;
         Destroy(_boss, 9.5f);

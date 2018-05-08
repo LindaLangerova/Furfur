@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4905002}
   - component: {fileID: 4905004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32958834}
   - component: {fileID: 32958836}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -713,7 +713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: I like my new structure.
-  textColor: {r: 0.30980393, g: 0, b: 0, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!114 &64510404
 MonoBehaviour:
@@ -1130,7 +1130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 92389026}
   - component: {fileID: 92389028}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1701,7 +1701,7 @@ GameObject:
   - component: {fileID: 165603663}
   - component: {fileID: 165603662}
   - component: {fileID: 165603664}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Plosinka6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1822,7 +1822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Hey! You calling me primitive?! Me not primitive, you primitive!
-  textColor: {r: 0, g: 0.015618689, b: 0.32352942, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!114 &173338954
 MonoBehaviour:
@@ -2041,6 +2041,11 @@ Prefab:
       propertyPath: reactions.Array.data[5]
       value: 
       objectReference: {fileID: 223556803}
+    - target: {fileID: 212960793525233264, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
   m_IsPrefabParent: 0
@@ -2130,7 +2135,7 @@ GameObject:
   - component: {fileID: 196512050}
   - component: {fileID: 196512053}
   - component: {fileID: 196512051}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: IfElseLadder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2207,13 +2212,13 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: -4.5, y: 4.57}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 15.19, y: 11.13}
+    oldSize: {x: 15.190001, y: 11.13}
     newSize: {x: 5, y: 4.99}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2265,19 +2270,19 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 1
-  m_UsedByComposite: 1
-  m_Offset: {x: 5.16, y: -3.74}
+  m_UsedByComposite: 0
+  m_Offset: {x: 5.16, y: -3.2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 15.19, y: 11.13}
+    oldSize: {x: 15.190001, y: 11.13}
     newSize: {x: 5, y: 4.99}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.02, y: 1.76}
+  m_Size: {x: 2.1, y: 0.39}
   m_EdgeRadius: 0
 --- !u!61 &196512055
 BoxCollider2D:
@@ -2295,7 +2300,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 15.19, y: 11.13}
+    oldSize: {x: 15.190001, y: 11.13}
     newSize: {x: 5, y: 4.99}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2320,7 +2325,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 15.19, y: 11.13}
+    oldSize: {x: 15.190001, y: 11.13}
     newSize: {x: 5, y: 4.99}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2346,7 +2351,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 15.19, y: 11.13}
+    oldSize: {x: 15.190001, y: 11.13}
     newSize: {x: 5, y: 4.99}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2491,7 +2496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 227496040}
   - component: {fileID: 227496042}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2712,7 +2717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 261914575}
   - component: {fileID: 261914577}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2958,7 +2963,7 @@ GameObject:
   - component: {fileID: 316021820}
   - component: {fileID: 316021819}
   - component: {fileID: 316021821}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3092,7 +3097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: You lightweight morron! Me put you in that cage! Rrrr!!!
-  textColor: {r: 0.30882353, g: 0, b: 0, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!1001 &334137440
 Prefab:
@@ -3204,6 +3209,11 @@ Prefab:
       propertyPath: conditionCollections.Array.data[3]
       value: 
       objectReference: {fileID: 476367098}
+    - target: {fileID: 212960793525233264, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
   m_IsPrefabParent: 0
@@ -3217,7 +3227,7 @@ GameObject:
   - component: {fileID: 335648380}
   - component: {fileID: 335648382}
   - component: {fileID: 335648381}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3317,7 +3327,7 @@ GameObject:
   - component: {fileID: 341764978}
   - component: {fileID: 341764977}
   - component: {fileID: 341764979}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3782,6 +3792,46 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &378981012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 378981013}
+  - component: {fileID: 378981014}
+  m_Layer: 0
+  m_Name: terminalScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &378981013
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 378981012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 214917239}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &378981014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 378981012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa57c737ce7ac5045a77ff97c09c9610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &384811823
 GameObject:
   m_ObjectHideFlags: 0
@@ -4298,6 +4348,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 1066266629}
+--- !u!114 &440687114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5370bdc45ac43f44b9c5083ae85ab20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0
+  behaviour: {fileID: 378981014}
+  enabledState: 1
 --- !u!1 &440790181
 GameObject:
   m_ObjectHideFlags: 0
@@ -4454,7 +4518,7 @@ GameObject:
   - component: {fileID: 453870444}
   - component: {fileID: 453870446}
   - component: {fileID: 453870445}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4554,7 +4618,7 @@ GameObject:
   - component: {fileID: 454175742}
   - component: {fileID: 454175741}
   - component: {fileID: 454175743}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka7 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4853,7 +4917,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.51, y: 10.3}
+    oldSize: {x: 6.5099998, y: 10.299999}
     newSize: {x: 6.51, y: 10.3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4905,7 +4969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Wha...w..what is that??No..no! This can't be happening, too many voices...
     stop it! STOP!!! AAARrrrGg!
-  textColor: {r: 0.3455882, g: 0, b: 0, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!114 &482963452
 MonoBehaviour:
@@ -4948,7 +5012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 487471212}
   - component: {fileID: 487471214}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5091,20 +5155,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 80469090}
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
---- !u!114 &498869133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Penguin, I have another question..
-  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
-  delay: 0
 --- !u!1 &507035021
 GameObject:
   m_ObjectHideFlags: 0
@@ -5114,7 +5164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 507035022}
   - component: {fileID: 507035024}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5359,7 +5409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538316358}
   - component: {fileID: 538316360}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5701,7 +5751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: Yeah, who else? You're the first living being I've seen in a while. What
     the hell is happening here?
-  textColor: {r: 0.36862746, g: 0.4117647, b: 0.3254902, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!114 &571314758
 MonoBehaviour:
@@ -6046,7 +6096,7 @@ GameObject:
   m_Component:
   - component: {fileID: 660808241}
   - component: {fileID: 660808243}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6352,7 +6402,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.15, y: 5.25}
+    oldSize: {x: 6.1499996, y: 5.25}
     newSize: {x: 6.15, y: 5.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6425,7 +6475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5370bdc45ac43f44b9c5083ae85ab20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2
+  delay: 1
   behaviour: {fileID: 1636506937}
   enabledState: 1
 --- !u!1 &707838797
@@ -6437,7 +6487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 707838798}
   - component: {fileID: 707838800}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6585,7 +6635,7 @@ GameObject:
   - component: {fileID: 715236060}
   - component: {fileID: 715236059}
   - component: {fileID: 715236061}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka7 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6777,7 +6827,7 @@ GameObject:
   - component: {fileID: 726007811}
   - component: {fileID: 726007810}
   - component: {fileID: 726007809}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6996,8 +7046,8 @@ RectTransform:
   m_Children:
   - {fileID: 1537152504}
   - {fileID: 1196571377}
-  - {fileID: 845084039}
   - {fileID: 1500101509}
+  - {fileID: 845084039}
   - {fileID: 984623135}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -7120,7 +7170,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 741494723}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 416.256, y: 208.243, z: 0}
+  m_LocalPosition: {x: 414.83, y: 208.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7181,7 +7231,7 @@ MonoBehaviour:
   originalOffset: {x: 0, y: 0}
   layerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   moveSpeed: 3
 --- !u!1 &743047550
 GameObject:
@@ -7457,6 +7507,20 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224476140162410002, guid: 8be965e8a6aa7694aaee4a7b9b61062a,
     type: 2}
   m_PrefabInternal: {fileID: 752464763}
+--- !u!114 &762971129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5370bdc45ac43f44b9c5083ae85ab20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0
+  behaviour: {fileID: 1500101510}
+  enabledState: 0
 --- !u!1 &767147964
 GameObject:
   m_ObjectHideFlags: 0
@@ -7554,7 +7618,7 @@ GameObject:
   - component: {fileID: 774612514}
   - component: {fileID: 774612513}
   - component: {fileID: 774612512}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7651,105 +7715,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 752464763}
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
---- !u!1 &789278551
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 789278552}
-  - component: {fileID: 789278554}
-  - component: {fileID: 789278553}
-  m_Layer: 0
-  m_Name: Ending3 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &789278552
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 789278551}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.39, y: 5.7, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1371073881}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &789278553
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 789278551}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.4, y: 2.41}
-  m_EdgeRadius: 0
---- !u!212 &789278554
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 789278551}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
 --- !u!1 &809058242
 GameObject:
   m_ObjectHideFlags: 0
@@ -7850,7 +7815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: RrrrRR!!
-  textColor: {r: 0.30980393, g: 0, b: 0, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!114 &822033884
 MonoBehaviour:
@@ -8066,7 +8031,7 @@ RectTransform:
   - {fileID: 2023236180}
   - {fileID: 527021203}
   m_Father: {fileID: 739287603}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8131,7 +8096,7 @@ Prefab:
     - target: {fileID: 114508834434052678, guid: e3b57a40349a39e42910c99165eecb62,
         type: 2}
       propertyPath: reactions.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
       propertyPath: m_LocalPosition.x
@@ -8208,6 +8173,16 @@ Prefab:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 6.36
       objectReference: {fileID: 0}
+    - target: {fileID: 114508834434052678, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: reactions.Array.data[2]
+      value: 
+      objectReference: {fileID: 440687114}
+    - target: {fileID: 114508834434052678, guid: e3b57a40349a39e42910c99165eecb62,
+        type: 2}
+      propertyPath: reactions.Array.data[3]
+      value: 
+      objectReference: {fileID: 762971129}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3b57a40349a39e42910c99165eecb62, type: 2}
   m_IsPrefabParent: 0
@@ -8222,7 +8197,7 @@ GameObject:
   - component: {fileID: 851324847}
   - component: {fileID: 851324846}
   - component: {fileID: 851324848}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka7 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8340,7 +8315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 852473283}
   - component: {fileID: 852473285}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8414,7 +8389,7 @@ GameObject:
   - component: {fileID: 859723122}
   - component: {fileID: 859723124}
   - component: {fileID: 859723123}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8585,7 +8560,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 871991271}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 416.26, y: 207.9293, z: -3.5625}
+  m_LocalPosition: {x: 414.83398, y: 208.29631, z: -3.5625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8814,7 +8789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 892908966}
   - component: {fileID: 892908968}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8919,8 +8894,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 498869133}
-  - {fileID: 1430950238}
   - {fileID: 1557306926}
   - {fileID: 79713003}
   - {fileID: 126482156}
@@ -9898,7 +9871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1006826795}
   - component: {fileID: 1006826797}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9989,7 +9962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Me hit you!
-  textColor: {r: 0, g: 0.015686275, b: 0.32156864, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!1 &1010600375
 GameObject:
@@ -10000,7 +9973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1010600376}
   - component: {fileID: 1010600378}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10135,7 +10108,7 @@ GameObject:
   - component: {fileID: 1020893054}
   - component: {fileID: 1020893056}
   - component: {fileID: 1020893055}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10357,7 +10330,7 @@ GameObject:
   - component: {fileID: 1045419046}
   - component: {fileID: 1045419045}
   - component: {fileID: 1045419047}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka7 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10479,7 +10452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: 'I wish I knew the answer... But I guess I need to find The Blue Scream
     of Death and ask him, can you direct me to him? '
-  textColor: {r: 0.36862746, g: 0.4117647, b: 0.3254902, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!1 &1048977259
 GameObject:
@@ -10490,7 +10463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1048977260}
   - component: {fileID: 1048977262}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10708,7 +10681,7 @@ GameObject:
   - component: {fileID: 1073683541}
   - component: {fileID: 1073683540}
   - component: {fileID: 1073683542}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka7 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10887,7 +10860,7 @@ GameObject:
   - component: {fileID: 1080826534}
   - component: {fileID: 1080826533}
   - component: {fileID: 1080826535}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10996,6 +10969,53 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!1001 &1081150990
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 82417278250101696, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.25
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1082185451
 GameObject:
   m_ObjectHideFlags: 0
@@ -11120,7 +11140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1123806901}
   - component: {fileID: 1123806903}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11194,7 +11214,7 @@ GameObject:
   - component: {fileID: 1126973463}
   - component: {fileID: 1126973465}
   - component: {fileID: 1126973464}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11492,7 +11512,7 @@ GameObject:
   - component: {fileID: 1147117223}
   - component: {fileID: 1147117225}
   - component: {fileID: 1147117224}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12100,7 +12120,7 @@ GameObject:
   - component: {fileID: 1166493130}
   - component: {fileID: 1166493129}
   - component: {fileID: 1166493131}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12327,7 +12347,7 @@ GameObject:
   - component: {fileID: 1196664943}
   - component: {fileID: 1196664942}
   - component: {fileID: 1196664941}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12499,7 +12519,7 @@ GameObject:
   - component: {fileID: 1205863962}
   - component: {fileID: 1205863964}
   - component: {fileID: 1205863963}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13227,7 +13247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1299943040}
   - component: {fileID: 1299943042}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13685,7 +13705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1352159956}
   - component: {fileID: 1352159958}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13776,7 +13796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   message: 'What have you done.. what...? Well that doesn''t feel so bad. You made
     some connection between us! No more just c and 99, we are brothers now. '
-  textColor: {r: 0, g: 0.015686275, b: 0.32156864, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!1 &1369812395
 GameObject:
@@ -13789,7 +13809,7 @@ GameObject:
   - component: {fileID: 1369812398}
   - component: {fileID: 1369812397}
   - component: {fileID: 1369812399}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka7 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13930,8 +13950,6 @@ Transform:
   - {fileID: 1802195548}
   - {fileID: 1463232694}
   - {fileID: 1309258169}
-  - {fileID: 1725435574}
-  - {fileID: 789278552}
   m_Father: {fileID: 1011947634}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14357,20 +14375,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!114 &1430950238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: What is it?
-  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
-  delay: 0
 --- !u!114 &1433847385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14572,7 +14576,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 7d181a8c428979e4fbd4d5789f0879fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -15176,7 +15180,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 739287603}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15260,7 +15264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1504871191}
   - component: {fileID: 1504871193}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15737,7 +15741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Do you have any idea what is this?
+  message: Penguin, do you have any idea what is this?
   textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!114 &1564380412
@@ -15766,7 +15770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Hey you! Penguin!
-  textColor: {r: 0.366955, g: 0.41176468, b: 0.3239619, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!1 &1578020681
 GameObject:
@@ -15779,7 +15783,7 @@ GameObject:
   - component: {fileID: 1578020684}
   - component: {fileID: 1578020683}
   - component: {fileID: 1578020685}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16045,7 +16049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d99810693d96475419d3426759d51659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 5
+  delay: 3
   gameObject: {fileID: 196512048}
   activeState: 1
 --- !u!1001 &1585325537
@@ -16403,7 +16407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: "\rRRRRRrrrr!!!"
-  textColor: {r: 0, g: 0.015686275, b: 0.32156864, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!4 &1626370024 stripped
 Transform:
@@ -17067,105 +17071,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &1725435573
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1725435574}
-  - component: {fileID: 1725435576}
-  - component: {fileID: 1725435575}
-  m_Layer: 0
-  m_Name: Ending3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1725435574
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1725435573}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.7, y: 0.13999939, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1371073881}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1725435575
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1725435573}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.4, y: 2.41}
-  m_EdgeRadius: 0
---- !u!212 &1725435576
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1725435573}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
 --- !u!1 &1730231415
 GameObject:
   m_ObjectHideFlags: 0
@@ -17249,7 +17154,7 @@ GameObject:
   - component: {fileID: 1732943559}
   - component: {fileID: 1732943561}
   - component: {fileID: 1732943560}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17662,7 +17567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1779406179}
   - component: {fileID: 1779406181}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17752,7 +17657,7 @@ GameObject:
   - component: {fileID: 1793164684}
   - component: {fileID: 1793164683}
   - component: {fileID: 1793164685}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18038,7 +17943,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 28.16, y: 21.3}
+    oldSize: {x: 28.16, y: 21.300001}
     newSize: {x: 28.16, y: 21.3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -18333,7 +18238,7 @@ GameObject:
   - component: {fileID: 1848093380}
   - component: {fileID: 1848093382}
   - component: {fileID: 1848093381}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18709,7 +18614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: I guess we don't need this cage any more, lets take it.
-  textColor: {r: 0.30980393, g: 0, b: 0, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!1 &1874416688
 GameObject:
@@ -18720,7 +18625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1874416689}
   - component: {fileID: 1874416691}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18794,7 +18699,7 @@ GameObject:
   - component: {fileID: 1881698218}
   - component: {fileID: 1881698220}
   - component: {fileID: 1881698219}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18968,7 +18873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Rrrr...eh..urrrg!! *nooooope*
-  textColor: {r: 0.41911763, g: 0, b: 0, a: 1}
+  textColor: {r: 0.18431373, g: 0.18431373, b: 0.18431373, a: 1}
   delay: 0
 --- !u!114 &1895205138
 MonoBehaviour:
@@ -19068,7 +18973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1898610669}
   - component: {fileID: 1898610670}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DefaultReaction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19217,7 +19122,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1914016189}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 427.72, y: 212.463, z: 0}
+  m_LocalPosition: {x: 431, y: 210.27, z: 0}
   m_LocalScale: {x: 2.1059463, y: 1.8776393, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -19372,7 +19277,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.01, y: 9.39}
+    oldSize: {x: 9.01, y: 9.389999}
     newSize: {x: 9.01, y: 9.39}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -19492,7 +19397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1977923622}
   - component: {fileID: 1977923624}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19726,6 +19631,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1997332466}
   - component: {fileID: 1997332467}
+  - component: {fileID: 1997332468}
   m_Layer: 0
   m_Name: sceneManager
   m_TagString: Untagged
@@ -19757,6 +19663,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 671daff3822ce8246917a227e5e45460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1997332468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1997332465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1cbb295b8318ee4d828185412626fb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 741494723}
 --- !u!1 &1998342361
 GameObject:
   m_ObjectHideFlags: 0
@@ -19766,7 +19684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998342362}
   - component: {fileID: 1998342364}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20326,7 +20244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2071284319}
   - component: {fileID: 2071284321}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20574,7 +20492,7 @@ GameObject:
   - component: {fileID: 2108828108}
   - component: {fileID: 2108828110}
   - component: {fileID: 2108828109}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Plosinka2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

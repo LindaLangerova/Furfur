@@ -20,13 +20,13 @@ public class TextManager : MonoBehaviour
     public float additionalDisplayTime = 1f;
 
 
-    private List<Instruction> instructions = new List<Instruction> ();
+    public List<Instruction> instructions = new List<Instruction> ();
     private float clearTime;
 
 
     private void Update ()
     {
-        if (text.text == "") GameObject.Find("Player").GetComponent<PlayerMovement>().enabled = true;
+        if (text.text == "" && instructions.Count == 0) GameObject.Find("Player").GetComponent<PlayerMovement>().enabled = true;
         else
         {
             GameObject.Find("Player").GetComponent<PlayerMovement>().Stop();
