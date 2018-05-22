@@ -10,6 +10,7 @@ public class SceneManagerAddition : MonoBehaviour
 {
 
     public StreamVideo streamVideo;
+    public AllConditions conditions;
 
     public void LoadC()
     {
@@ -21,7 +22,6 @@ public class SceneManagerAddition : MonoBehaviour
         if (streamVideo.videoFinished)
         {
             SceneManager.LoadScene("C");
-                
         }
     }
 }

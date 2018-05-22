@@ -63,7 +63,6 @@ public class TextManager : MonoBehaviour
                                     additionalDisplayTime;
                     }
                 }
-                
             }
         }
         else if (Time.time >= clearTime)

@@ -56,6 +56,6 @@ public class BulletCreator : MonoBehaviour
         text.color = Color.grey;
         text.text = ((char)Math.Round(UnityEngine.Random.Range(33.0f, 125.0f))).ToString();
         
-        Destroy(bulletObject, 5);
+        Destroy(bulletObject, 0.4f);
     }
 }

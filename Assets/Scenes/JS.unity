@@ -3357,7 +3357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 575574092}
   - component: {fileID: 575574093}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3519,7 +3519,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 82417278250101696, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
         type: 2}
@@ -5331,6 +5331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 888949204}
   - component: {fileID: 888949205}
+  - component: {fileID: 888949206}
   m_Layer: 0
   m_Name: Default
   m_TagString: Untagged
@@ -5365,6 +5366,18 @@ MonoBehaviour:
   reactions:
   - {fileID: 1414335549}
   - {fileID: 700854434}
+  - {fileID: 1097334834}
+--- !u!114 &888949206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 888949203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ae1493a988fa1d4e8693c302e393e4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &894103690
 GameObject:
   m_ObjectHideFlags: 0
@@ -5935,7 +5948,7 @@ GameObject:
   - component: {fileID: 953632589}
   - component: {fileID: 953632588}
   - component: {fileID: 953632587}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6608,6 +6621,34 @@ MonoBehaviour:
   delay: 0
   gameObject: {fileID: 726905591}
   activeState: 0
+--- !u!114 &1097334834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543404acfc9ebb94098bc872b5b2348c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 2
+  theMethod:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 888949206}
+        m_MethodName: ChangeToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: FinalVideo
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1099923634
 GameObject:
   m_ObjectHideFlags: 0
@@ -10950,7 +10991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1665963041}
   - component: {fileID: 1665963042}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: plosinkaLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11193,59 +11234,6 @@ MonoBehaviour:
   message: Thank you little dragon, the path is now clear.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
---- !u!1 &1692150289
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1692150291}
-  - component: {fileID: 1692150290}
-  - component: {fileID: 1692150292}
-  m_Layer: 0
-  m_Name: SceneManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1692150290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1692150289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c05be5907320ec3468486fd1a59f45a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1692150291
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1692150289}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 419.37878, y: 240.2805, z: -9.296875}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1692150292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1692150289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1cbb295b8318ee4d828185412626fb9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 2055735229}
 --- !u!114 &1700085059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12716,6 +12704,11 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 114792787947056044, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 0.7529412
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf44ba835028c894998b01e489111964, type: 2}
   m_IsPrefabParent: 0
@@ -13971,6 +13964,18 @@ GameObject:
   m_PrefabParentObject: {fileID: 1861856337237248, guid: 509bdfdf714d42f4b92a1a5007348ab9,
     type: 2}
   m_PrefabInternal: {fileID: 125357345}
+--- !u!114 &2055735230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2055735229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1cbb295b8318ee4d828185412626fb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 2055735229}
 --- !u!114 &2058063726
 MonoBehaviour:
   m_ObjectHideFlags: 0

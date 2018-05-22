@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
@@ -17,8 +14,7 @@ public class SoundManager : MonoBehaviour
 
     private float _velocityX;
     private float _velocityY;
-
-    private bool _spacePressed;
+    
     private bool _grounded;
     
     void Start ()
@@ -36,7 +32,6 @@ public class SoundManager : MonoBehaviour
 	{
 	    _velocityX = _playerAnimator.GetFloat("velocityX");
         _velocityY = _playerAnimator.GetFloat("velocityY");
-	    _spacePressed = _playerAnimator.GetBool("spacePressed");
 	    _grounded = _playerAnimator.GetBool("grounded");
 
 	    _walkSound.enabled = _grounded && _velocityX >= 0.3;

@@ -69,7 +69,7 @@ public class BossFightC : MonoBehaviour {
 	        OnWin();
 	    if (_stopped) BossMovement = 0;
 	        else BossMovement = -0.5f;
-	    if (_player.transform.position.y > 213 && _player.transform.position.x > 436 && _stopped)
+	    if (_player.transform.position.y > 213 && _player.transform.position.x > 434 && _stopped)
 	        OnBossFightStart();
 	    if (_boss.transform.position.x < 65)
 	        OnLost();
@@ -104,6 +104,12 @@ public class BossFightC : MonoBehaviour {
     
     void OnWin()
     {
+        GameObject.Find("UIText").GetComponent<Text>().text = "";
+        GameObject.Find("Terminal").GetComponent<BoxCollider2D>().enabled = false;
+
+        while (_inventory.ContainsItems())
+            _inventory.RemoveLast();
+
         GameObject.Find("WinReaction").GetComponent<ReactionCollection>().React();
         GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         _stopped = true;
