@@ -1192,11 +1192,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 143347766}
   m_LocalRotation: {x: -0, y: -0, z: 0.17274258, w: 0.98496705}
-  m_LocalPosition: {x: 421.62, y: 210.6, z: 0}
-  m_LocalScale: {x: 0.7102252, y: 0.7102252, z: 0.7102252}
+  m_LocalPosition: {x: 13.845818, y: -2.8561082, z: 0}
+  m_LocalScale: {x: 1.6977173, y: 1.9834155, z: 1.4824783}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1748252831}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 19.895}
 --- !u!114 &150770622
 MonoBehaviour:
@@ -1310,7 +1310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Heimdall? Loki? The heck are you talking about? Why there are so many
+  message: 'Heimdall? Loki? The heck are you talking about? Why are there so many
     of them? '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
@@ -1475,7 +1475,7 @@ Transform:
   m_LocalScale: {x: -0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 18.982}
 --- !u!114 &200026276
 MonoBehaviour:
@@ -3343,7 +3343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Ahh these fussy gods... Let's give him this equality, to see how he will
+  message: Ahh these fussy gods... Let's give him this Equality, to see how he will
     React.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
@@ -3519,7 +3519,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4738804544809638, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 82417278250101696, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
         type: 2}
@@ -3530,6 +3530,31 @@ Prefab:
         type: 2}
       propertyPath: m_Volume
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 82743774059669842, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82636896185876652, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82209125310562960, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82840688975830750, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82847246733874956, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
@@ -3659,7 +3684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Lightening around this one sends you vibres. It's obvious it belongs to
+  message: Lightening around this one sends you vibes. It's obvious it belongs to
     Zeus.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
@@ -5787,8 +5812,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Seems like you can compare with the highest god... An unexpected reaction!!
-    The NodeGod appears!
+  message: Seems like you can compare with the highest god after all... An unexpected
+    reaction!! The NodeGod appears!
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1001 &935288610
@@ -6768,7 +6793,7 @@ Transform:
   - {fileID: 1048966607}
   - {fileID: 349312327}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1111809470
 GameObject:
@@ -7142,6 +7167,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   conditionCollections: []
   defaultReactionCollection: {fileID: 888949205}
+--- !u!1001 &1164904911
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 426.837
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 211.037
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 114111225913887970, guid: 088e3a60925860b4981c84dae5f2f9e1,
+        type: 2}
+      propertyPath: BackToMenuLabel
+      value: 
+      objectReference: {fileID: 1399221632}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1165575045
 GameObject:
   m_ObjectHideFlags: 0
@@ -8309,7 +8381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Come on, It's 2018, no one leaves his mountain protected by only one god.
+  message: Come on, It's 2018, nobody leaves their mountan protected by only one god.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!114 &1252566393
@@ -9126,6 +9198,11 @@ MonoBehaviour:
   - {fileID: 1948578331}
   - {fileID: 1102449831}
   - {fileID: 690195392}
+--- !u!1 &1399221632 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1291527421272872, guid: cf44ba835028c894998b01e489111964,
+    type: 2}
+  m_PrefabInternal: {fileID: 1861771943}
 --- !u!1 &1404563243
 GameObject:
   m_ObjectHideFlags: 0
@@ -9763,7 +9840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Jeeez that one is a huge monster. I promise I've already heared of him...
+  message: Jeeez that one is a huge monster. I promise I've already heard about him...
     But maybe my lovely Flufflekins might be a bigger problem for you at the moment.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
@@ -10347,7 +10424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Who? '
+  message: 'What? '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1 &1590306155
@@ -11259,10 +11336,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: The giant robodragon living in the mountain. If you want to go looking
-    for your prey, you will need to get over him. But still you need to get enough
-    karma to get up there. The mountain is protected by several gods as Heimdall,
-    Loki, Zeus and the highest one.
+  message: "The giant robodragon living in the mountain. If you want to go looking
+    for your prey, you will definitely need to get over him. But first, you need to
+    get enough karma to get up there. The mountain is protected by several gods \u2013
+    Heimdall, Loki, Zeus and the highest one."
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1 &1721028492
@@ -11657,6 +11734,7 @@ Transform:
   - {fileID: 1111809471}
   - {fileID: 1659924809}
   - {fileID: 1791410336}
+  - {fileID: 143347768}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11672,7 +11750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: "Zeus is a true gourmet. You are lucky I have just what he needs to enjoy
-    his time with Webstrom. \r\nPremium quality Chai with Jasmine. "
+    his time with WebStrom. \r\nPremium quality Chai with Jasmine. "
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1 &1760642550
@@ -12709,7 +12787,218 @@ Prefab:
       propertyPath: m_Color.a
       value: 0.7529412
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 224860633970240310, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224860633970240310, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114778094249032504, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114778094249032504, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.916
+      objectReference: {fileID: 0}
+    - target: {fileID: 114778094249032504, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224224092291142712, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224224092291142712, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224224092291142712, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 224224092291142712, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 224224092291142712, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224224092291142712, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224694962760991754, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224694962760991754, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224694962760991754, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 126.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 224694962760991754, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 224694962760991754, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224694962760991754, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224787096672183680, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224787096672183680, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224787096672183680, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 207.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 224787096672183680, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 224787096672183680, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224787096672183680, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224002393226354886, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224002393226354886, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224002393226354886, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 224002393226354886, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -121.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224002393226354886, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224002393226354886, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224181890806866262, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224181890806866262, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224181890806866262, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 126.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 224181890806866262, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -121.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224181890806866262, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224181890806866262, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224888310394307392, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224888310394307392, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224888310394307392, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 207.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 224888310394307392, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -121.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224888310394307392, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 224888310394307392, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 223323704170770898, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1517665760}
+    m_RemovedComponents:
+    - {fileID: 114980339325204260, guid: cf44ba835028c894998b01e489111964, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: cf44ba835028c894998b01e489111964, type: 2}
   m_IsPrefabParent: 0
 --- !u!114 &1868258091
@@ -13375,7 +13664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Loki? No way he needs his brother, let''s take this Thor package. '
+  message: 'Loki? No way he needs his brother, here, let''s take this Thor package. '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1 &1951198476

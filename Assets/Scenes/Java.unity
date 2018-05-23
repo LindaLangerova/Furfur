@@ -750,16 +750,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 224402916959940788, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224402916959940788, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 224110060919794192, guid: cf44ba835028c894998b01e489111964,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -850,214 +840,33 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 223679868070528064, guid: cf44ba835028c894998b01e489111964,
+    - target: {fileID: 224860633970240310, guid: cf44ba835028c894998b01e489111964,
         type: 2}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 371460823}
-    - target: {fileID: 224864527759605012, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMin.y
+      propertyPath: m_AnchorMax.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 224864527759605012, guid: cf44ba835028c894998b01e489111964,
+    - target: {fileID: 224860633970240310, guid: cf44ba835028c894998b01e489111964,
         type: 2}
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 224864527759605012, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 224864527759605012, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: 224864527759605012, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 224864527759605012, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 224202927164270600, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224202927164270600, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224202927164270600, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 126.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 224202927164270600, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: 224202927164270600, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 224202927164270600, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 224959564827012818, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224959564827012818, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224959564827012818, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 207.88
-      objectReference: {fileID: 0}
-    - target: {fileID: 224959564827012818, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -45
-      objectReference: {fileID: 0}
-    - target: {fileID: 224959564827012818, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 224959564827012818, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 224603358544261306, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224603358544261306, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224603358544261306, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 224603358544261306, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -121.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224603358544261306, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 224603358544261306, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 224129584937281142, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224129584937281142, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224129584937281142, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 126.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 224129584937281142, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -121.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224129584937281142, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 224129584937281142, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 224761938827658848, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224761938827658848, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224761938827658848, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 207.88
-      objectReference: {fileID: 0}
-    - target: {fileID: 224761938827658848, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -121.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224761938827658848, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 224761938827658848, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 114927865148508048, guid: cf44ba835028c894998b01e489111964,
+    - target: {fileID: 114778094249032504, guid: cf44ba835028c894998b01e489111964,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.60294116
+      value: 0.9264706
       objectReference: {fileID: 0}
-    - target: {fileID: 114927865148508048, guid: cf44ba835028c894998b01e489111964,
+    - target: {fileID: 114778094249032504, guid: cf44ba835028c894998b01e489111964,
         type: 2}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.30655277
       objectReference: {fileID: 0}
-    - target: {fileID: 114927865148508048, guid: cf44ba835028c894998b01e489111964,
+    - target: {fileID: 114778094249032504, guid: cf44ba835028c894998b01e489111964,
         type: 2}
-      propertyPath: m_Color.a
-      value: 0.566
-      objectReference: {fileID: 0}
-    - target: {fileID: 114792787947056044, guid: cf44ba835028c894998b01e489111964,
-        type: 2}
-      propertyPath: m_Color.a
-      value: 0.7529412
+      propertyPath: m_Color.b
+      value: 0.30655277
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 212724333629118598, guid: cf44ba835028c894998b01e489111964, type: 2}
-    - {fileID: 95700662104289222, guid: cf44ba835028c894998b01e489111964, type: 2}
+    - {fileID: 114980339325204260, guid: cf44ba835028c894998b01e489111964, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: cf44ba835028c894998b01e489111964, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &38799813
@@ -1860,9 +1669,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Ahaa... new vict... customer! Welcom and make yourself at home. You came
-    to the world where anything is possible... So my dear... what do you want?                            Weapons?
-    Drugs? I have anything! ...for a price...
+  message: Ahaa... new vict... customer! Welcome and make yourself at home. You came
+    to a world where everything is possible... So my dear... What do you want? Weapons?
+    Drugs? I have everything! ...for a price...
   textColor: {r: 0.18382353, g: 0.18382353, b: 0.18382353, a: 1}
   delay: 0
 --- !u!114 &88278954
@@ -2052,8 +1861,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '...soo you are looking for ID card, hmm? Sure I have it! But.. ehm.. you
-    don''t have money nor anything interesting for exchange, do you?'
+  message: ..soo you are looking for an ID card, hmm? Sure I have some! But.. ehm..
+    you don't have the money or anything interesting for exchange, do you?
   textColor: {r: 0.18382353, g: 0.18382353, b: 0.18382353, a: 1}
   delay: 0
 --- !u!1 &110221453
@@ -3171,8 +2980,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: "Stop! Type control. Submit your ID card. ... Everything's allright, you
-    can pass...\r\n"
+  message: "Stop! Type control. Submit your ID card. \u2026 Everything's allright,
+    you can instantiate\u2026"
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1 &256206636
@@ -3762,7 +3571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: No way... come on guys, let's use trash cans!
+  message: No way... come on guys, let's use trash cans, this actually leaks!
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!4 &293068621 stripped
@@ -4352,6 +4161,53 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &340660753
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 426.837
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 211.037
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983965216786766, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114111225913887970, guid: 088e3a60925860b4981c84dae5f2f9e1,
+        type: 2}
+      propertyPath: BackToMenuLabel
+      value: 
+      objectReference: {fileID: 1837377841}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 088e3a60925860b4981c84dae5f2f9e1, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &341621726
 GameObject:
   m_ObjectHideFlags: 0
@@ -4430,11 +4286,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62,
     type: 2}
   m_PrefabInternal: {fileID: 1392576029}
---- !u!20 &371460823 stripped
-Camera:
-  m_PrefabParentObject: {fileID: 20661651145270802, guid: c21af2fc0b124984997593c2bfd99b4d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1946855502}
 --- !u!1 &379403025 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1333061454705016, guid: e3b57a40349a39e42910c99165eecb62,
@@ -5915,7 +5766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: No way... come on guys, let's use trash cans!
+  message: No way... come on guys, let's use trash cans, this actually leaks!
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1001 &478881249
@@ -7491,7 +7342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: 'So...? Have you found my ram? Can''t make everything just in time, without
-    him, my life is ruined! '
+    him, my life-cycle is ruined! '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1 &602359779
@@ -7639,7 +7490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: No way... come on guys, let's use trash cans!
+  message: No way... come on guys, let's use trash cans, this actually leaks!
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1 &633789812
@@ -8572,7 +8423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'You have another of the lost garbage? Great, thanks a lot! But I''m pretty
+  message: 'What have you found? Another garbage? Great, thanks a lot! But I''m pretty
     sure that''s not all.. '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
@@ -9899,8 +9750,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: No way, this is my ram! And just in time! Love you little dragon, you made
-    me a big favor, I guess... I know! Let's take my motorbike, it's just gathering
+  message: No way, this is my ram! And just in time! I love you little dragon, you
+    made me a big favor, I guess... I know! Let's take my motorbike, it's just gathering
     dust here.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
@@ -14100,9 +13951,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Nom nom no.... what? My precious you have that magical liquid! Give it
-    to me! Now! ...you can do whatever you want with this ram, I don''t need it any
-    more. '
+  message: 'Nom nom no.... what? You have that magical liquid! My precious! Give it
+    to me! Now! ...you can do whatever you want with that ram, I don''t need it anymore. '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1 &1224570392
@@ -14608,8 +14458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'You have some of the lost garbage? Great, thanks a lot! But there are
-    more of them.. '
+  message: 'What have you found? Some garbage? Great, thanks a lot! But there is more
+    of it... '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1 &1251372413
@@ -16344,8 +16194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Amazing! This should be the last one. I am reall grateful to you...maybe
-    you might appreciate this key as a reward. '
+  message: Amazing! This should be all of it. I am so grateful you helped me clear
+    this mess... Maybe you might appreciate this key as a reward.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1001 &1392576029
@@ -16607,6 +16457,31 @@ Prefab:
         type: 2}
       propertyPath: m_Volume
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 82743774059669842, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82636896185876652, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82209125310562960, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82840688975830750, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82847246733874956, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9eaa71832e4f05f4aa22eb5e3dd733ea, type: 2}
@@ -17908,7 +17783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: I know I know... I should go work again.
+  message: "I know I know\u2026 I should get back to work."
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1 &1516140888
@@ -18466,8 +18341,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Stop! Type check. Submit your ID card. ... You don't have any? So get out
-    of here!
+  message: Stop! Type check. Submit your ID card. You don't have any? So get one or
+    else do not show here again! There is no try! Do not expect that you're an exception.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!114 &1574693516
@@ -20917,7 +20792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Well well, what do we have here? This bike seems to be enough for an ID
-    card. Here is it. It was a pleasure to deal with you.
+    card. Here it is. It was a pleasure to deal with you.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!1 &1827705325
@@ -21035,6 +20910,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1837377841 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1291527421272872, guid: cf44ba835028c894998b01e489111964,
+    type: 2}
+  m_PrefabInternal: {fileID: 38102870}
 --- !u!114 &1838617219
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -20,3 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalVideo.unity
     guid: 47edf9f5259e4d84da9b2adca8e07705
+  - enabled: 1
+    path: Assets/Scenes/Levels.unity
+    guid: 4f47a69940995dc4ba74f58f752d25f2
