@@ -2,8 +2,8 @@
 
 public class AudioReaction : Reaction
 {
-    public AudioSource audioSource;
     public AudioClip audioClip;
+    public AudioSource audioSource;
     public float delay;
 
 

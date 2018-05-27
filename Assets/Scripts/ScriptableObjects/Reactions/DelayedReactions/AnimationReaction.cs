@@ -9,14 +9,14 @@ public class AnimationReaction : DelayedReaction
     private int triggerHash;
 
 
-    protected override void SpecificInit ()
+    protected override void SpecificInit()
     {
         triggerHash = Animator.StringToHash(trigger);
     }
 
 
-    protected override void ImmediateReaction ()
+    protected override void ImmediateReaction()
     {
-        animator.SetTrigger (triggerHash);
+        animator.SetTrigger(triggerHash);
     }
 }

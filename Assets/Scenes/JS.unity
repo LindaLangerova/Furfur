@@ -314,10 +314,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Between
+  reactionCollection: {fileID: 956955777}
   requiredConditions:
   - {fileID: 1568293095}
   - {fileID: 1252566393}
-  reactionCollection: {fileID: 956955777}
 --- !u!114 &20590236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,9 +343,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: GetLokiStuff
+  reactionCollection: {fileID: 1395622884}
   requiredConditions:
   - {fileID: 1732346759}
-  reactionCollection: {fileID: 1395622884}
 --- !u!1 &27772837
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,8 +431,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSSatisfyNodegod
-  satisfied: 1
   hash: -995208970
+  satisfied: 1
 --- !u!114 &45347509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,8 +445,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0
-  gameObject: {fileID: 1562882560}
   activeState: 0
+  gameObject: {fileID: 1562882560}
 --- !u!1 &65650413
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,9 +576,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Satisfied
+  reactionCollection: {fileID: 1951198478}
   requiredConditions:
   - {fileID: 29768792}
-  reactionCollection: {fileID: 1951198478}
 --- !u!1 &79211892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,9 +1106,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Already talked
+  reactionCollection: {fileID: 1382652041}
   requiredConditions:
   - {fileID: 150770622}
-  reactionCollection: {fileID: 1382652041}
 --- !u!1 &137256368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1240,8 +1240,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSTalkToMPJ
-  satisfied: 1
   hash: -356531828
+  satisfied: 1
 --- !u!1001 &161795482
 Prefab:
   m_ObjectHideFlags: 0
@@ -1313,8 +1313,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSGetVue
-  satisfied: 1
   hash: 1865501986
+  satisfied: 1
 --- !u!114 &163073641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1327,8 +1327,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSGetThor
-  satisfied: 1
   hash: -48324842
+  satisfied: 1
 --- !u!114 &165233839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1340,10 +1340,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: 'Heimdall? Loki? The heck are you talking about? Why are there so many
     of them? '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &172034227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1518,9 +1518,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: 'Emmm... maybe something that Loki might appreciate? '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &213348483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1532,10 +1532,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: He will love this brand new Vue to watch over Ragnarok and the mountain
     while doing this part-time job.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &219952161
 GameObject:
   m_ObjectHideFlags: 0
@@ -1848,9 +1848,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: You seem falsy... I mean your expression is undefined. Cheer up!
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &259400282
 GameObject:
   m_ObjectHideFlags: 0
@@ -2012,8 +2012,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSGetVue
-  satisfied: 1
   hash: 1865501986
+  satisfied: 1
 --- !u!114 &284777395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2040,8 +2040,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSTalkToNodegod
-  satisfied: 1
   hash: 1724622276
+  satisfied: 1
 --- !u!1 &307784273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,10 +2098,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Hey buddy, how can I assist you? I have everything you ever wanted, if
     you buy one, you get 3 gratis! So?
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &329222459
 GameObject:
   m_ObjectHideFlags: 0
@@ -2187,8 +2187,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0
-  gameObject: {fileID: 953632586}
   activeState: 1
+  gameObject: {fileID: 953632586}
 --- !u!114 &333913533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2200,9 +2200,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: The idol of Loki is glowing some energy that prevents you from continuing.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &334916230
 GameObject:
   m_ObjectHideFlags: 0
@@ -2271,9 +2271,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 688b7153e44a2bf4e966d5113e1a76ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 2055735229}
   MeteorSpeed: 0.05
   MountDragon: 0
+  Player: {fileID: 2055735229}
 --- !u!61 &335076307
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2457,9 +2457,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Satisfied
+  reactionCollection: {fileID: 66143431}
   requiredConditions:
   - {fileID: 608008914}
-  reactionCollection: {fileID: 66143431}
 --- !u!1 &356559182
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,8 +2591,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSGetChai
-  satisfied: 1
   hash: 607523922
+  satisfied: 1
 --- !u!4 &380435442 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4876185641593926, guid: e3b57a40349a39e42910c99165eecb62,
@@ -2609,11 +2609,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Emmm... Well the highest god said that the e-quality of your shop is a
     bit poor. So maybe I could give him something that will change his mind and make
     him happy?
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &393372500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2626,10 +2626,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: HaveEquality
+  reactionCollection: {fileID: 956955777}
   requiredConditions:
   - {fileID: 1451690225}
   - {fileID: 497313696}
-  reactionCollection: {fileID: 956955777}
 --- !u!1 &410918439
 GameObject:
   m_ObjectHideFlags: 0
@@ -2686,10 +2686,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Between
+  reactionCollection: {fileID: 956955777}
   requiredConditions:
   - {fileID: 163073641}
   - {fileID: 715001035}
-  reactionCollection: {fileID: 956955777}
 --- !u!114 &441762618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2714,9 +2714,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: I am looking for Blue Scream of Death, maybe you could know him.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &454681908
 GameObject:
   m_ObjectHideFlags: 0
@@ -3035,8 +3035,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSTalkToHeimdall
-  satisfied: 1
   hash: 879364552
+  satisfied: 1
 --- !u!1 &484615028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3091,8 +3091,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSHaveEquality
-  satisfied: 1
   hash: 1010871863
+  satisfied: 1
 --- !u!1 &497391394
 GameObject:
   m_ObjectHideFlags: 0
@@ -3220,10 +3220,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Hey buddy, how can I assist you? I have everything you ever wanted, if
     you buy one, you get 3 gratis! So?
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &503924347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3290,10 +3290,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: 'Gooood monday morning... dragon?! Want to join my dragon squad? No? Then
     you should first go anywhere else...  '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &526763808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3305,10 +3305,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Hey buddy, how can I assist you? I have everything you ever wanted, if
     you buy one, you get 3 gratis! So?
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &531930671
 GameObject:
   m_ObjectHideFlags: 0
@@ -3501,10 +3501,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Ahh these fussy gods... Let's give him this Equality, to see how he will
     React.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &575574091
 GameObject:
   m_ObjectHideFlags: 0
@@ -3593,8 +3593,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSGetThor
-  satisfied: 1
   hash: -48324842
+  satisfied: 1
 --- !u!114 &593955117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3607,9 +3607,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Satisfied
+  reactionCollection: {fileID: 1760691382}
   requiredConditions:
   - {fileID: 757325313}
-  reactionCollection: {fileID: 1760691382}
 --- !u!114 &598278186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3622,10 +3622,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: 2Eq
+  reactionCollection: {fileID: 1590306157}
   requiredConditions:
   - {fileID: 650997650}
   - {fileID: 1361794107}
-  reactionCollection: {fileID: 1590306157}
 --- !u!114 &608008914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3638,8 +3638,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSSatisfyHeimdall
-  satisfied: 1
   hash: -65061443
+  satisfied: 1
 --- !u!1001 &620764720
 Prefab:
   m_ObjectHideFlags: 0
@@ -3815,8 +3815,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSEquality1
-  satisfied: 1
   hash: 1651710261
+  satisfied: 1
 --- !u!114 &672760951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3828,9 +3828,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: 'I Poop Squares, want to See? '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &675594697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3842,10 +3842,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Lightening around this one sends you vibes. It's obvious it belongs to
     Zeus.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &685276811
 GameObject:
   m_ObjectHideFlags: 0
@@ -3945,10 +3945,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Satisfy
+  reactionCollection: {fileID: 906535435}
   requiredConditions:
   - {fileID: 1233615875}
   - {fileID: 1116103396}
-  reactionCollection: {fileID: 906535435}
 --- !u!1 &694013213
 GameObject:
   m_ObjectHideFlags: 0
@@ -4061,8 +4061,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSTalkToZeus
-  satisfied: 0
   hash: 1213914528
+  satisfied: 0
 --- !u!1 &716171263
 GameObject:
   m_ObjectHideFlags: 0
@@ -4694,8 +4694,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSSatisfyZeus
-  satisfied: 1
   hash: -120181850
+  satisfied: 1
 --- !u!114 &763304197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5868,9 +5868,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Satisfy
+  reactionCollection: {fileID: 1165575047}
   requiredConditions:
   - {fileID: 162601805}
-  reactionCollection: {fileID: 1165575047}
 --- !u!114 &905951278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5883,9 +5883,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Satisfy
+  reactionCollection: {fileID: 1738315198}
   requiredConditions:
   - {fileID: 374377167}
-  reactionCollection: {fileID: 1738315198}
 --- !u!1 &906535433
 GameObject:
   m_ObjectHideFlags: 0
@@ -6070,10 +6070,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Seems like you can compare with the highest god after all... An unexpected
     reaction!! The NodeGod appears!
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1001 &935288610
 Prefab:
   m_ObjectHideFlags: 0
@@ -6483,9 +6483,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Cool, I always wanted to cosplay DC hero, I'll take this suit.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1031668738
 GameObject:
   m_ObjectHideFlags: 0
@@ -6649,10 +6649,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Who is distubing the peace of Heimdall?! Hmmm you want to pass? Then you
     must satisfy his needs!
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &1048083255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6664,9 +6664,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Wow... he literally did mount!
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1048658247
 GameObject:
   m_ObjectHideFlags: 0
@@ -6824,10 +6824,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Hey buddy, how can I assist you? I have everything you ever wanted, if
     you buy one, you get 3 gratis! So?
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1061240829
 GameObject:
   m_ObjectHideFlags: 0
@@ -6916,8 +6916,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0
-  gameObject: {fileID: 726905591}
   activeState: 0
+  gameObject: {fileID: 726905591}
 --- !u!114 &1097334834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7152,8 +7152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSHaveEquality
-  satisfied: 1
   hash: 1010871863
+  satisfied: 1
 --- !u!1 &1131358213
 GameObject:
   m_ObjectHideFlags: 0
@@ -7543,10 +7543,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Wooooaaah! I am now the Arrow! And THIS is clear now, that platform was
     there all the time.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1179522294
 GameObject:
   m_ObjectHideFlags: 0
@@ -8099,10 +8099,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: I swear THIS platform was there, but I can't reach it right now, I don't
     understand...
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1200421320
 GameObject:
   m_ObjectHideFlags: 0
@@ -8489,8 +8489,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSEquality2
-  satisfied: 1
   hash: -75872113
+  satisfied: 1
 --- !u!1 &1237443047
 GameObject:
   m_ObjectHideFlags: 0
@@ -8667,9 +8667,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Come on, It's 2018, nobody leaves their mountan protected by only one god.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &1252566393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8682,8 +8682,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSTalkToNodegod
-  satisfied: 0
   hash: 1724622276
+  satisfied: 0
 --- !u!1 &1252720497
 GameObject:
   m_ObjectHideFlags: 0
@@ -8771,11 +8771,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: "The highest tomb is quaking. You are the first being who got so far! What
     are you? Not an ordinary dragon, not a god. You want to compare with me \tlike
     that? Pfff..."
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &1263512761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9160,9 +9160,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: GetHeimStuff
+  reactionCollection: {fileID: 371860155}
   requiredConditions:
   - {fileID: 484550660}
-  reactionCollection: {fileID: 371860155}
 --- !u!114 &1331120142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9175,8 +9175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0
-  gameObject: {fileID: 537711463}
   activeState: 0
+  gameObject: {fileID: 537711463}
 --- !u!114 &1342380082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9189,9 +9189,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: WantEquality
+  reactionCollection: {fileID: 2043336901}
   requiredConditions:
   - {fileID: 304647153}
-  reactionCollection: {fileID: 2043336901}
 --- !u!1 &1359396222
 GameObject:
   m_ObjectHideFlags: 0
@@ -9277,8 +9277,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSHaveEquality
-  satisfied: 1
   hash: 1010871863
+  satisfied: 1
 --- !u!1 &1364079513
 GameObject:
   m_ObjectHideFlags: 0
@@ -9364,9 +9364,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: CreateArrow
+  reactionCollection: {fileID: 1981675005}
   requiredConditions:
   - {fileID: 2075803838}
-  reactionCollection: {fileID: 1981675005}
 --- !u!114 &1368707260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9379,9 +9379,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: 1Eq
+  reactionCollection: {fileID: 137256370}
   requiredConditions:
   - {fileID: 2006913822}
-  reactionCollection: {fileID: 137256370}
 --- !u!1 &1382652039
 GameObject:
   m_ObjectHideFlags: 0
@@ -9733,9 +9733,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: You finished JS level! <3
-  textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
+  message: You got out!
+  textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
 --- !u!1 &1425351529
 GameObject:
   m_ObjectHideFlags: 0
@@ -10144,8 +10144,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSTalkToNodegod
-  satisfied: 1
   hash: 1724622276
+  satisfied: 1
 --- !u!1 &1453820628
 GameObject:
   m_ObjectHideFlags: 0
@@ -10199,10 +10199,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Jeeez that one is a huge monster. I promise I've already heard about him...
     But maybe my lovely Flufflekins might be a bigger problem for you at the moment.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &1507884794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10215,9 +10215,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Satisfied
+  reactionCollection: {fileID: 1237443049}
   requiredConditions:
   - {fileID: 1925290638}
-  reactionCollection: {fileID: 1237443049}
 --- !u!114 &1508743499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10229,9 +10229,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: 'Emmm... maybe something that Zeus might appreciate? '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!20 &1517665760 stripped
 Camera:
   m_PrefabParentObject: {fileID: 20661651145270802, guid: c21af2fc0b124984997593c2bfd99b4d,
@@ -10373,8 +10373,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSTalkToZeus
-  satisfied: 1
   hash: 1213914528
+  satisfied: 1
 --- !u!1 &1537728585 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1692591473520614, guid: 4328c0add05a0e948b9d061bedd5e89c,
@@ -10585,8 +10585,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSGetChai
-  satisfied: 1
   hash: 607523922
+  satisfied: 1
 --- !u!114 &1569963293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10598,9 +10598,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Unexpected reaction...
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1578843557
 GameObject:
   m_ObjectHideFlags: 0
@@ -10812,9 +10812,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: 'What? '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1590306155
 GameObject:
   m_ObjectHideFlags: 0
@@ -10872,9 +10872,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Thank you little dragon, the path is now clear.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1602250144
 GameObject:
   m_ObjectHideFlags: 0
@@ -11380,11 +11380,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: The highest tomb is quaking. You are the first being who got so far! What
     are you? Not an ordinary dragon, not a god. You want to compare with me? Pfff...
     You better tell that wombat to improve his e-shop... It's disgusting.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &1653520738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11397,9 +11397,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: GetZeusStuff
+  reactionCollection: {fileID: 1659366514}
   requiredConditions:
   - {fileID: 1527439309}
-  reactionCollection: {fileID: 1659366514}
 --- !u!1 &1659366512
 GameObject:
   m_ObjectHideFlags: 0
@@ -11770,9 +11770,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Thank you little dragon, the path is now clear.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!114 &1700085059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11785,8 +11785,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0
-  gameObject: {fileID: 531930671}
   activeState: 0
+  gameObject: {fileID: 531930671}
 --- !u!114 &1700543183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11798,12 +11798,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: "The giant robodragon living in the mountain. If you want to go looking
     for your prey, you will definitely need to get over him. But first, you need to
     get enough karma to get up there. The mountain is protected by several gods \u2013
     Heimdall, Loki, Zeus and the highest one."
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1721028492
 GameObject:
   m_ObjectHideFlags: 0
@@ -11968,8 +11968,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSTalkToLoki
-  satisfied: 1
   hash: 429692560
+  satisfied: 1
 --- !u!1 &1738047559
 GameObject:
   m_ObjectHideFlags: 0
@@ -12218,10 +12218,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: "Zeus is a true gourmet. You are lucky I have just what he needs to enjoy
     his time with WebStrom. \r\nPremium quality Chai with Jasmine. "
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1760642550
 GameObject:
   m_ObjectHideFlags: 0
@@ -12424,8 +12424,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0
-  gameObject: {fileID: 1927621610}
   activeState: 0
+  gameObject: {fileID: 1927621610}
 --- !u!1 &1772821951
 GameObject:
   m_ObjectHideFlags: 0
@@ -12466,9 +12466,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc57f79556470ed4fbcd8bbf61de5c7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 2055735229}
-  DragonScript: {fileID: 335076306}
   Animator: {fileID: 1913453767}
+  DragonScript: {fileID: 335076306}
+  Player: {fileID: 2055735229}
 --- !u!1001 &1774191766
 Prefab:
   m_ObjectHideFlags: 0
@@ -12595,9 +12595,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: I am the Arrow! THIS platform was there all the time.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1791410335
 GameObject:
   m_ObjectHideFlags: 0
@@ -12683,9 +12683,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Satisfy
+  reactionCollection: {fileID: 837721041}
   requiredConditions:
   - {fileID: 577653706}
-  reactionCollection: {fileID: 837721041}
 --- !u!1001 &1803988733
 Prefab:
   m_ObjectHideFlags: 0
@@ -12942,8 +12942,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSTalkToLoki
-  satisfied: 0
   hash: 429692560
+  satisfied: 0
 --- !u!1001 &1861771943
 Prefab:
   m_ObjectHideFlags: 0
@@ -13496,9 +13496,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Thaks creature! You are worthy to pass.
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1868278667
 GameObject:
   m_ObjectHideFlags: 0
@@ -13931,8 +13931,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSSatisfyLoki
-  satisfied: 1
   hash: -1458544490
+  satisfied: 1
 --- !u!1 &1927621610
 GameObject:
   m_ObjectHideFlags: 0
@@ -14148,9 +14148,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: 'Loki? No way he needs his brother, here, let''s take this Thor package. '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1951198476
 GameObject:
   m_ObjectHideFlags: 0
@@ -14204,10 +14204,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: 'The highest tomb is quaking. You are the first being who got so far! What
     are you? Not an ordinary dragon, not a god. You want to become me? How rude! Pfff... '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &1956501677
 GameObject:
   m_ObjectHideFlags: 0
@@ -14553,10 +14553,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: Between
+  reactionCollection: {fileID: 956955777}
   requiredConditions:
   - {fileID: 283406755}
   - {fileID: 1851921197}
-  reactionCollection: {fileID: 956955777}
 --- !u!114 &2002546214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14569,8 +14569,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0
-  gameObject: {fileID: 477794019}
   activeState: 1
+  gameObject: {fileID: 477794019}
 --- !u!114 &2006913822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14583,8 +14583,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSHaveEquality
-  satisfied: 1
   hash: 1010871863
+  satisfied: 1
 --- !u!114 &2009191892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14757,9 +14757,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: Oh god...
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &2055735229 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1861856337237248, guid: 509bdfdf714d42f4b92a1a5007348ab9,
@@ -14788,9 +14788,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
   message: 'Emmm... maybe something that Heimdall might appreciate? '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
-  delay: 0
 --- !u!1 &2058202776
 GameObject:
   m_ObjectHideFlags: 0
@@ -15098,5 +15098,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JSGetSuit
-  satisfied: 1
   hash: -888236737
+  satisfied: 1

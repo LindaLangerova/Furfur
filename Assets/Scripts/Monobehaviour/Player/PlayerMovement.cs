@@ -4,19 +4,19 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
-    private BoxCollider2D myCollider;
-    private Rigidbody2D rigidBody;
-    public bool grounded;
-    public bool canJump;
-    public float jumpForce = 23.0f;
-    public bool pushed;
-
-    public Vector2 originalOffset;
     private Animator animator;
+    public bool canJump;
+    public bool grounded;
+    public float jumpForce = 23.0f;
 
     [SerializeField] protected LayerMask layerMask;
 
     public float moveSpeed = 12.0F;
+    private BoxCollider2D myCollider;
+
+    public Vector2 originalOffset;
+    public bool pushed;
+    private Rigidbody2D rigidBody;
     private SpriteRenderer spriteRenderer;
 
 
@@ -29,7 +29,6 @@ public class PlayerMovement : MonoBehaviour
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         originalOffset = myCollider.offset;
-
     }
 
     protected void Update()
@@ -74,9 +73,9 @@ public class PlayerMovement : MonoBehaviour
     {
         var move = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-        rigidBody.velocity = pushed ? 
-            new Vector2(rigidBody.velocity.x, rigidBody.velocity.y) : 
-            new Vector2(Input.GetAxis("Horizontal") * moveSpeed, rigidBody.velocity.y);
+        rigidBody.velocity = pushed
+            ? new Vector2(rigidBody.velocity.x, rigidBody.velocity.y)
+            : new Vector2(Input.GetAxis("Horizontal") * moveSpeed, rigidBody.velocity.y);
 
         if (move.x < 0)
         {

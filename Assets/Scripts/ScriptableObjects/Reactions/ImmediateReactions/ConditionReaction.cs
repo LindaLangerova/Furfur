@@ -4,7 +4,7 @@
     public bool satisfied;
 
 
-    protected override void ImmediateReaction ()
+    protected override void ImmediateReaction()
     {
         condition.satisfied = satisfied;
     }

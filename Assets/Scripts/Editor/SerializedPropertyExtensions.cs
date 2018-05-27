@@ -1,9 +1,9 @@
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 
 public static class SerializedPropertyExtensions
 {
-    public static void AddToObjectArray<T> (this SerializedProperty arrayProperty, T elementToAdd)
+    public static void AddToObjectArray<T>(this SerializedProperty arrayProperty, T elementToAdd)
         where T : Object
     {
         if (!arrayProperty.isArray)
@@ -18,16 +18,18 @@ public static class SerializedPropertyExtensions
     }
 
 
-    public static void RemoveFromObjectArrayAt (this SerializedProperty arrayProperty, int index)
+    public static void RemoveFromObjectArrayAt(this SerializedProperty arrayProperty, int index)
     {
-        if(index < 0)
-            throw new UnityException("SerializedProperty " + arrayProperty.name + " cannot have negative elements removed.");
+        if (index < 0)
+            throw new UnityException("SerializedProperty " + arrayProperty.name +
+                                     " cannot have negative elements removed.");
 
         if (!arrayProperty.isArray)
             throw new UnityException("SerializedProperty " + arrayProperty.name + " is not an array.");
 
-        if(index > arrayProperty.arraySize - 1)
-            throw new UnityException("SerializedProperty " + arrayProperty.name + " has only " + arrayProperty.arraySize + " elements so element " + index + " cannot be removed.");
+        if (index > arrayProperty.arraySize - 1)
+            throw new UnityException("SerializedProperty " + arrayProperty.name + " has only " +
+                                     arrayProperty.arraySize + " elements so element " + index + " cannot be removed.");
 
         arrayProperty.serializedObject.Update();
         if (arrayProperty.GetArrayElementAtIndex(index).objectReferenceValue)
@@ -37,24 +39,24 @@ public static class SerializedPropertyExtensions
     }
 
 
-    public static void RemoveFromObjectArray<T> (this SerializedProperty arrayProperty, T elementToRemove)
+    public static void RemoveFromObjectArray<T>(this SerializedProperty arrayProperty, T elementToRemove)
         where T : Object
     {
         if (!arrayProperty.isArray)
             throw new UnityException("SerializedProperty " + arrayProperty.name + " is not an array.");
 
-        if(!elementToRemove)
+        if (!elementToRemove)
             throw new UnityException("Removing a null element is not supported using this method.");
 
         arrayProperty.serializedObject.Update();
 
-        for (int i = 0; i < arrayProperty.arraySize; i++)
+        for (var i = 0; i < arrayProperty.arraySize; i++)
         {
-            SerializedProperty elementProperty = arrayProperty.GetArrayElementAtIndex(i);
+            var elementProperty = arrayProperty.GetArrayElementAtIndex(i);
 
             if (elementProperty.objectReferenceValue == elementToRemove)
             {
-                arrayProperty.RemoveFromObjectArrayAt (i);
+                arrayProperty.RemoveFromObjectArrayAt(i);
                 return;
             }
         }

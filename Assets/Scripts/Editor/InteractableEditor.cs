@@ -1,33 +1,32 @@
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 
 [CustomEditor(typeof(Interactable))]
 public class InteractableEditor : EditorWithSubEditors<ConditionCollectionEditor, ConditionCollection>
 {
-    private Interactable interactable;
-    private SerializedProperty collectionsProperty;
-    private SerializedProperty defaultReactionCollectionProperty;
-
-
     private const float collectionButtonWidth = 125f;
     private const string interactablePropConditionCollectionsName = "conditionCollections";
     private const string interactablePropDefaultReactionCollectionName = "defaultReactionCollection";
+    private SerializedProperty collectionsProperty;
+    private SerializedProperty defaultReactionCollectionProperty;
+    private Interactable interactable;
 
 
-    private void OnEnable ()
+    private void OnEnable()
     {
-        interactable = (Interactable)target;
+        interactable = (Interactable) target;
 
         collectionsProperty = serializedObject.FindProperty(interactablePropConditionCollectionsName);
-        defaultReactionCollectionProperty = serializedObject.FindProperty(interactablePropDefaultReactionCollectionName);
-        
+        defaultReactionCollectionProperty =
+            serializedObject.FindProperty(interactablePropDefaultReactionCollectionName);
+
         CheckAndCreateSubEditors(interactable.conditionCollections);
     }
 
 
-    private void OnDisable ()
+    private void OnDisable()
     {
-        CleanupEditors ();
+        CleanupEditors();
     }
 
 
@@ -37,31 +36,32 @@ public class InteractableEditor : EditorWithSubEditors<ConditionCollectionEditor
     }
 
 
-    public override void OnInspectorGUI ()
+    public override void OnInspectorGUI()
     {
-        serializedObject.Update ();
-        
+        serializedObject.Update();
+
         CheckAndCreateSubEditors(interactable.conditionCollections);
 
-        for (int i = 0; i < subEditors.Length; i++)
+        for (var i = 0; i < subEditors.Length; i++)
         {
-            subEditors[i].OnInspectorGUI ();
-            EditorGUILayout.Space ();
+            subEditors[i].OnInspectorGUI();
+            EditorGUILayout.Space();
         }
 
         EditorGUILayout.BeginHorizontal();
-        GUILayout.FlexibleSpace ();
+        GUILayout.FlexibleSpace();
         if (GUILayout.Button("Add Collection", GUILayout.Width(collectionButtonWidth)))
         {
-            ConditionCollection newCollection = ConditionCollectionEditor.CreateConditionCollection ();
-            collectionsProperty.AddToObjectArray (newCollection);
+            var newCollection = ConditionCollectionEditor.CreateConditionCollection();
+            collectionsProperty.AddToObjectArray(newCollection);
         }
-        EditorGUILayout.EndHorizontal ();
 
-        EditorGUILayout.Space ();
+        EditorGUILayout.EndHorizontal();
 
-        EditorGUILayout.PropertyField (defaultReactionCollectionProperty);
+        EditorGUILayout.Space();
 
-        serializedObject.ApplyModifiedProperties ();
+        EditorGUILayout.PropertyField(defaultReactionCollectionProperty);
+
+        serializedObject.ApplyModifiedProperties();
     }
 }

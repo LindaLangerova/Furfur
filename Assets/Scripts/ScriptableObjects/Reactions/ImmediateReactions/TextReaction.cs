@@ -2,9 +2,9 @@
 
 public class TextReaction : Reaction
 {
+    public float delay;
     public string message;
     public Color textColor = new Color(0.184f, 0.184f, 0.184f, 1f);
-    public float delay;
 
 
     private TextManager textManager;
@@ -12,16 +12,12 @@ public class TextReaction : Reaction
 
     protected override void SpecificInit()
     {
-        textManager = FindObjectOfType<TextManager> ();
+        textManager = FindObjectOfType<TextManager>();
     }
 
 
     protected override void ImmediateReaction()
     {
-        if (!textManager.waitForKey)
-        {
-            textManager.DisplayMessage(message, textColor, delay);
-        }
-            
+        if (!textManager.waitForKey) textManager.DisplayMessage(message, textColor, delay);
     }
 }

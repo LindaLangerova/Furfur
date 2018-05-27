@@ -7,29 +7,29 @@ using UnityEngine.Video;
 public class StreamVideoLast : MonoBehaviour
 {
     public RawImage image;
+
+    public bool videoFinished;
+
+    public VideoPlayer videoPlayer;
     //public VideoClip videoToPlay;
 
     //private VideoPlayer videoPlayer;
     private VideoSource videoSource;
-    public VideoPlayer videoPlayer;
-    
-    public bool videoFinished;
 
     // Use this for initialization
-    void Start()
+    private void Start()
     {
         videoFinished = false;
         Application.runInBackground = true;
         StartCoroutine(playVideo());
     }
 
-    IEnumerator playVideo()
+    private IEnumerator playVideo()
     {
-        
-        image.color = new Vector4(0,0,0,1);
+        image.color = new Vector4(0, 0, 0, 1);
         videoPlayer.Prepare();
-        
-        WaitForSeconds waitTime = new WaitForSeconds(5);
+
+        var waitTime = new WaitForSeconds(5);
         while (!videoPlayer.isPrepared)
         {
             //Debug.Log("Preparing Video");
@@ -38,11 +38,12 @@ public class StreamVideoLast : MonoBehaviour
             //Break out of the while loop after 5 seconds wait
             break;
         }
+
         image.texture = videoPlayer.texture;
         image.color = new Vector4(1, 1, 1, 1);
         //Play Video
         videoPlayer.Play();
-        
+
         while (videoPlayer.isPlaying)
         {
             if (Input.GetKey(KeyCode.X)) videoPlayer.Stop();

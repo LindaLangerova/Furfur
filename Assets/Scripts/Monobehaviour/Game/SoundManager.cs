@@ -2,7 +2,6 @@
 
 public class SoundManager : MonoBehaviour
 {
-
     private static AudioSource _walkSound;
     private static AudioSource _jumpSound;
     private static AudioSource _pickSound;
@@ -11,15 +10,15 @@ public class SoundManager : MonoBehaviour
 
     private static AudioSource _localMucis;
 
+    private bool _grounded;
+
     private Animator _playerAnimator;
+    private bool _soundEnabled;
 
     private float _velocityX;
     private float _velocityY;
-    
-    private bool _grounded;
-    private bool _soundEnabled;
 
-    void Start ()
+    private void Start()
     {
         _localMucis = GetComponent<AudioSource>();
 
@@ -32,26 +31,26 @@ public class SoundManager : MonoBehaviour
         _playerAnimator = GameObject.Find("Player").GetComponent<Animator>();
         _soundEnabled = true;
     }
-	
-	void Update ()
-	{
-	    if (Input.GetKeyDown(KeyCode.S))
-	    {
-	        _soundEnabled = !_soundEnabled;
-	        _localMucis.mute = !_soundEnabled;
-	    }
-        
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            _soundEnabled = !_soundEnabled;
+            _localMucis.mute = !_soundEnabled;
+        }
+
         _velocityX = _playerAnimator.GetFloat("velocityX");
-	    _velocityY = _playerAnimator.GetFloat("velocityY");
-	    _grounded = _playerAnimator.GetBool("grounded");
+        _velocityY = _playerAnimator.GetFloat("velocityY");
+        _grounded = _playerAnimator.GetBool("grounded");
 
-	    _walkSound.enabled = _grounded && _velocityX >= 0.3 && _soundEnabled;
-	    _jumpSound.enabled = ((_jumpSound.isPlaying && _jumpSound.enabled) || _velocityY > 0) && _soundEnabled;
+        _walkSound.enabled = _grounded && _velocityX >= 0.3 && _soundEnabled;
+        _jumpSound.enabled = (_jumpSound.isPlaying && _jumpSound.enabled || _velocityY > 0) && _soundEnabled;
 
 
-	    _errorPickSound.enabled = _errorPickSound.isPlaying && _soundEnabled;
-	    _pickSound.enabled = _pickSound.isPlaying && _soundEnabled;
-	    _shootSound.enabled = _shootSound.isPlaying && _soundEnabled;
+        _errorPickSound.enabled = _errorPickSound.isPlaying && _soundEnabled;
+        _pickSound.enabled = _pickSound.isPlaying && _soundEnabled;
+        _shootSound.enabled = _shootSound.isPlaying && _soundEnabled;
     }
 
     public static void PlayPickSound()
@@ -61,8 +60,8 @@ public class SoundManager : MonoBehaviour
 
     public static void PlayErrorPickSound(int numberOfInstructions)
     {
-        if(numberOfInstructions == 0)
-        _errorPickSound.enabled = !_pickSound.enabled;
+        if (numberOfInstructions == 0)
+            _errorPickSound.enabled = !_pickSound.enabled;
         else _errorPickSound.enabled = false;
     }
 

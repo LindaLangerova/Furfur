@@ -1,87 +1,85 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class BossFightC : MonoBehaviour {
-
-    private GameObject _player;
+public class BossFightC : MonoBehaviour
+{
+    private const int BOSS_LIVES = 20;
     private GameObject _boss;
-
-    private BoxCollider2D _playerBoxCollider;
     private BoxCollider2D _bossBoxCollider;
 
     private Rigidbody2D _bossRigidbody;
 
-    private const int BOSS_LIVES = 20;
-    
+    public BulletCreator _bulletCreator;
+
 
     private Inventory _inventory;
-    public Sprite BulletSprite;
+
+    private GameObject _player;
+
+    private BoxCollider2D _playerBoxCollider;
 
     private Slider _slider;
-
-    private Animator BossAnimator;
-
-    public BulletCreator _bulletCreator;
-    public float BossMovement = -0.5f;
     public bool _stopped = true;
 
-    
+    private Animator BossAnimator;
+    public float BossMovement = -0.5f;
+    public Sprite BulletSprite;
+
 
     // Use this for initialization
-    void Start ()
-	{
-	    _player = GameObject.Find("Player");
+    private void Start()
+    {
+        _player = GameObject.Find("Player");
         _boss = GameObject.Find("NullTerminator");
         BossAnimator = _boss.GetComponent<Animator>();
 
         _playerBoxCollider = _player.GetComponent<BoxCollider2D>();
-	    _bossBoxCollider = _boss.GetComponent<BoxCollider2D>();
-	    _bossRigidbody = _boss.GetComponent<Rigidbody2D>();
+        _bossBoxCollider = _boss.GetComponent<BoxCollider2D>();
+        _bossRigidbody = _boss.GetComponent<Rigidbody2D>();
 
-	    
 
         _inventory = GameObject.Find("Inventory").GetComponent<Inventory>();
 
-	    _slider = GameObject.Find("Slider").GetComponent<Slider>();
-	    _slider.maxValue = BOSS_LIVES;
-	    _slider.value = BOSS_LIVES;
-	}
-	
-	// Update is called once per frame
-	void Update ()
-	{
-	    BossAnimator.SetFloat("velocity", BossMovement);
+        _slider = GameObject.Find("Slider").GetComponent<Slider>();
+        _slider.maxValue = BOSS_LIVES;
+        _slider.value = BOSS_LIVES;
+    }
 
-	    if (_player.transform.position.y < 212 && !_stopped)
+    // Update is called once per frame
+    private void Update()
+    {
+        BossAnimator.SetFloat("velocity", BossMovement);
+
+        if (_player.transform.position.y < 212 && !_stopped)
             OnLost();
 
         if (_bossBoxCollider.IsTouching(_playerBoxCollider))
-	        OnCollision();
-	    if (Input.GetKeyDown(KeyCode.C))
-	        OnShot();
-	    if (_slider.value <= 0)
-	        OnWin();
-	    if (_stopped) BossMovement = 0;
-	        else BossMovement = -0.5f;
-	    if (_player.transform.position.y > 213 && _player.transform.position.x > 434 && _stopped)
-	        OnBossFightStart();
-	    if (_boss.transform.position.x < 65)
-	        OnLost();
+            OnCollision();
+        if (Input.GetKeyDown(KeyCode.C))
+            OnShot();
+        if (_slider.value <= 0)
+            OnWin();
+        if (_stopped) BossMovement = 0;
+        else BossMovement = -0.5f;
+        if (_player.transform.position.y > 213 && _player.transform.position.x > 434 && _stopped)
+            OnBossFightStart();
+        if (_boss.transform.position.x < 65)
+            OnLost();
     }
 
-    void OnBossFightStart()
+    private void OnBossFightStart()
     {
         _stopped = false;
     }
 
-    void OnCollision()
+    private void OnCollision()
     {
-        PlayerMovement movement = _player.GetComponent<PlayerMovement>();
+        var movement = _player.GetComponent<PlayerMovement>();
         movement.pushed = true;
-        movement.PushAway(new Vector2(-4,15));
+        movement.PushAway(new Vector2(-4, 15));
     }
 
-    void OnShot()
+    private void OnShot()
     {
         if (_inventory.ContainsItems())
         {
@@ -91,12 +89,12 @@ public class BossFightC : MonoBehaviour {
         }
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         _bossRigidbody.velocity = new Vector3(BossMovement, 0, 0);
     }
-    
-    void OnWin()
+
+    private void OnWin()
     {
         GameObject.Find("UIText").GetComponent<Text>().text = "";
         GameObject.Find("Terminal").GetComponent<BoxCollider2D>().enabled = false;
@@ -112,10 +110,10 @@ public class BossFightC : MonoBehaviour {
         enabled = false;
     }
 
-    void OnLost()
+    private void OnLost()
     {
         GameObject.Find("LoseReaction").GetComponent<ReactionCollection>().React();
-        _boss.GetComponent<Rigidbody2D>().position = new Vector2(439,215);
+        _boss.GetComponent<Rigidbody2D>().position = new Vector2(439, 215);
         _stopped = true;
         BossAnimator.SetFloat("velocity", 0);
         _slider.value = BOSS_LIVES;

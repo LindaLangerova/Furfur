@@ -1,129 +1,106 @@
-﻿using UnityEngine;
-using UnityEditor;
+﻿using UnityEditor;
+using UnityEngine;
 
 [CustomEditor(typeof(AllConditions))]
 public class AllConditionsEditor : Editor
 {
+    private const string creationPath = "Assets/Resources/AllConditions.asset";
+    private const float buttonWidth = 30f;
+
+
+    private static string[] allConditionDescriptions;
+    private AllConditions allConditions;
+
+
+    private ConditionEditor[] conditionEditors;
+    private string newConditionDescription = "New Condition";
+
     public static string[] AllConditionDescriptions
     {
         get
         {
-            if (allConditionDescriptions == null)
-            {
-                SetAllConditionDescriptions ();
-            }
+            if (allConditionDescriptions == null) SetAllConditionDescriptions();
             return allConditionDescriptions;
         }
         private set { allConditionDescriptions = value; }
     }
 
 
-    private static string[] allConditionDescriptions;
-
-
-    private ConditionEditor[] conditionEditors;
-    private AllConditions allConditions;
-    private string newConditionDescription = "New Condition";
-
-
-    private const string creationPath = "Assets/Resources/AllConditions.asset";
-    private const float buttonWidth = 30f;
-
-
-    private void OnEnable ()
+    private void OnEnable()
     {
-        allConditions = (AllConditions)target;
+        allConditions = (AllConditions) target;
 
-        if(allConditions.conditions == null)
+        if (allConditions.conditions == null)
             allConditions.conditions = new Condition[0];
 
-        if (conditionEditors == null)
-        {
-            CreateEditors ();
-        }
+        if (conditionEditors == null) CreateEditors();
     }
 
-    private void OnDisable ()
+    private void OnDisable()
     {
-        for (int i = 0; i < conditionEditors.Length; i++)
-        {
-            DestroyImmediate (conditionEditors[i]);
-        }
+        for (var i = 0; i < conditionEditors.Length; i++) DestroyImmediate(conditionEditors[i]);
 
         conditionEditors = null;
     }
 
 
-    private static void SetAllConditionDescriptions ()
+    private static void SetAllConditionDescriptions()
     {
         AllConditionDescriptions = new string[TryGetConditionsLength()];
 
-        for (int i = 0; i < AllConditionDescriptions.Length; i++)
-        {
+        for (var i = 0; i < AllConditionDescriptions.Length; i++)
             AllConditionDescriptions[i] = TryGetConditionAt(i).description;
-        }
     }
 
     private static void ResetAllConditions()
     {
-        int lenght = TryGetConditionsLength();
+        var lenght = TryGetConditionsLength();
 
-        for (int i = 0; i < lenght; i++)
-        {
-            TryGetConditionAt(i).satisfied = false;
-        }
+        for (var i = 0; i < lenght; i++) TryGetConditionAt(i).satisfied = false;
     }
 
 
-    public override void OnInspectorGUI ()
+    public override void OnInspectorGUI()
     {
-        if (conditionEditors.Length != TryGetConditionsLength ())
+        if (conditionEditors.Length != TryGetConditionsLength())
         {
-            for (int i = 0; i < conditionEditors.Length; i++)
-            {
-                DestroyImmediate(conditionEditors[i]);
-            }
-            
-            CreateEditors ();
+            for (var i = 0; i < conditionEditors.Length; i++) DestroyImmediate(conditionEditors[i]);
+
+            CreateEditors();
         }
 
-        for (int i = 0; i < conditionEditors.Length; i++)
+        for (var i = 0; i < conditionEditors.Length; i++) conditionEditors[i].OnInspectorGUI();
+
+        if (TryGetConditionsLength() > 0)
         {
-            conditionEditors[i].OnInspectorGUI ();
+            EditorGUILayout.Space();
+            EditorGUILayout.Space();
         }
 
-        if (TryGetConditionsLength () > 0)
+        EditorGUILayout.BeginHorizontal();
+        newConditionDescription = EditorGUILayout.TextField(GUIContent.none, newConditionDescription);
+        if (GUILayout.Button("+", GUILayout.Width(buttonWidth)))
         {
-            EditorGUILayout.Space ();
-            EditorGUILayout.Space ();
-        }
-
-        EditorGUILayout.BeginHorizontal ();
-        newConditionDescription = EditorGUILayout.TextField (GUIContent.none, newConditionDescription);
-        if (GUILayout.Button ("+", GUILayout.Width (buttonWidth)))
-        {
-            AddCondition (newConditionDescription);
+            AddCondition(newConditionDescription);
             newConditionDescription = "New Condition";
         }
+
         EditorGUILayout.EndHorizontal();
 
         ////
         EditorGUILayout.BeginHorizontal();
-        
-        if (GUILayout.Button("Make all unsatisfied", GUILayout.Width(150)))
-        {
-            ResetAllConditions();
-        }
 
-        EditorGUILayout.EndHorizontal ();
+        if (GUILayout.Button("Make all unsatisfied", GUILayout.Width(150))) ResetAllConditions();
+
+        EditorGUILayout.EndHorizontal();
     }
 
 
-    private void CreateEditors ()
+    private void CreateEditors()
     {
         conditionEditors = new ConditionEditor[allConditions.conditions.Length];
 
-        for (int i = 0; i < conditionEditors.Length; i++)
+        for (var i = 0; i < conditionEditors.Length; i++)
         {
             conditionEditors[i] = CreateEditor(TryGetConditionAt(i)) as ConditionEditor;
             conditionEditors[i].editorType = ConditionEditor.EditorType.AllConditionAsset;
@@ -134,10 +111,10 @@ public class AllConditionsEditor : Editor
     [MenuItem("Assets/Create/AllConditions")]
     private static void CreateAllConditionsAsset()
     {
-        if(AllConditions.Instance)
+        if (AllConditions.Instance)
             return;
 
-        AllConditions instance = CreateInstance<AllConditions>();
+        var instance = CreateInstance<AllConditions>();
         AssetDatabase.CreateAsset(instance, creationPath);
 
         AllConditions.Instance = instance;
@@ -154,7 +131,7 @@ public class AllConditionsEditor : Editor
             return;
         }
 
-        Condition newCondition = ConditionEditor.CreateCondition (description);
+        var newCondition = ConditionEditor.CreateCondition(description);
         newCondition.name = description;
 
         Undo.RecordObject(newCondition, "Created new Condition");
@@ -166,7 +143,7 @@ public class AllConditionsEditor : Editor
 
         EditorUtility.SetDirty(AllConditions.Instance);
 
-        SetAllConditionDescriptions ();
+        SetAllConditionDescriptions();
     }
 
 
@@ -187,25 +164,23 @@ public class AllConditionsEditor : Editor
 
         EditorUtility.SetDirty(AllConditions.Instance);
 
-        SetAllConditionDescriptions ();
+        SetAllConditionDescriptions();
     }
 
 
-    public static int TryGetConditionIndex (Condition condition)
+    public static int TryGetConditionIndex(Condition condition)
     {
-        for (int i = 0; i < TryGetConditionsLength (); i++)
-        {
-            if (TryGetConditionAt (i).hash == condition.hash)
+        for (var i = 0; i < TryGetConditionsLength(); i++)
+            if (TryGetConditionAt(i).hash == condition.hash)
                 return i;
-        }
 
         return -1;
     }
 
 
-    public static Condition TryGetConditionAt (int index)
+    public static Condition TryGetConditionAt(int index)
     {
-        Condition[] allConditions = AllConditions.Instance.conditions;
+        var allConditions = AllConditions.Instance.conditions;
 
         if (allConditions == null || allConditions.Length == 0 || allConditions[0] == null)
             return null;
@@ -217,7 +192,7 @@ public class AllConditionsEditor : Editor
     }
 
 
-    public static int TryGetConditionsLength ()
+    public static int TryGetConditionsLength()
     {
         if (AllConditions.Instance.conditions == null)
             return 0;

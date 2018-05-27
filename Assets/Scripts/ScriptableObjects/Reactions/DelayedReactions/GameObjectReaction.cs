@@ -2,12 +2,12 @@
 
 public class GameObjectReaction : DelayedReaction
 {
-    public GameObject gameObject;
     public bool activeState;
+    public GameObject gameObject;
 
 
     protected override void ImmediateReaction()
     {
-        gameObject.SetActive (activeState);
+        gameObject.SetActive(activeState);
     }
 }

@@ -5,30 +5,30 @@ public class ReactionCollection : MonoBehaviour
     public Reaction[] reactions = new Reaction[0];
 
 
-    private void Start ()
+    private void Start()
     {
-        for (int i = 0; i < reactions.Length; i++)
+        for (var i = 0; i < reactions.Length; i++)
         {
-            DelayedReaction delayedReaction = reactions[i] as DelayedReaction;
+            var delayedReaction = reactions[i] as DelayedReaction;
 
             if (delayedReaction)
-                delayedReaction.Init ();
+                delayedReaction.Init();
             else
-                reactions[i].Init ();
+                reactions[i].Init();
         }
     }
 
 
-    public void React ()
+    public void React()
     {
-        for (int i = 0; i < reactions.Length; i++)
+        for (var i = 0; i < reactions.Length; i++)
         {
-            DelayedReaction delayedReaction = reactions[i] as DelayedReaction;
+            var delayedReaction = reactions[i] as DelayedReaction;
 
-            if(delayedReaction)
-                delayedReaction.React (this);
+            if (delayedReaction)
+                delayedReaction.React(this);
             else
-                reactions[i].React (this);
+                reactions[i].React(this);
         }
     }
 }

@@ -1,36 +1,28 @@
 using System;
-using UnityEngine;
-using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class TextManager : MonoBehaviour
 {
-    public class Instruction
-    {
-        public string message { get; set; }
-        public Color textColor { get; set; }
-        public float startTime { get; set; }
-        public GameObject player { get; set; }
-    }
+    public float additionalDisplayTime = 1f;
+    private float clearTime;
+    public float displayTimePerCharacter = 0.1f;
+
+
+    public List<Instruction> instructions = new List<Instruction>();
+    public Text text;
 
     public bool waitForKey;
-    public Text text;
-    public float displayTimePerCharacter = 0.1f;
-    public float additionalDisplayTime = 1f;
 
 
-    public List<Instruction> instructions = new List<Instruction> ();
-    private float clearTime;
-
-
-    private void Update ()
+    private void Update()
     {
-        if (text.text == "" && instructions.Count == 0) GameObject.Find("Player").GetComponent<PlayerMovement>().enabled = true;
+        if (text.text == "" && instructions.Count == 0)
+            GameObject.Find("Player").GetComponent<PlayerMovement>().enabled = true;
         else
-        {
             GameObject.Find("Player").GetComponent<PlayerMovement>().Stop();
-        }
 
         if (instructions.Count > 0 && Time.time >= instructions[0].startTime)
         {
@@ -73,11 +65,11 @@ public class TextManager : MonoBehaviour
         }
     }
 
-    public void DisplayMessage (string message, Color textColor, float delay)
+    public void DisplayMessage(string message, Color textColor, float delay)
     {
-        float startTime = Time.time + delay;
-        float displayDuration = message.Length * displayTimePerCharacter + additionalDisplayTime;
-        float newClearTime = startTime + displayDuration;
+        var startTime = Time.time + delay;
+        var displayDuration = message.Length * displayTimePerCharacter + additionalDisplayTime;
+        var newClearTime = startTime + displayDuration;
 
         if (newClearTime > clearTime)
             clearTime = newClearTime;
@@ -87,13 +79,9 @@ public class TextManager : MonoBehaviour
         var newInstruction = new Instruction {message = "", textColor = textColor, startTime = startTime};
 
         while (words.Count > 0)
-        {
             if ((newInstruction.message + " " + words.First()).Length <= 160)
             {
-                if (newInstruction.message != "")
-                {
-                    newInstruction.message += " ";
-                }
+                if (newInstruction.message != "") newInstruction.message += " ";
                 newInstruction.message += words.First();
 
                 words.RemoveAt(0);
@@ -101,45 +89,50 @@ public class TextManager : MonoBehaviour
             else
             {
                 instructions.Add(newInstruction);
-                newInstruction = new Instruction { message = "", textColor = textColor, startTime = startTime };
+                newInstruction = new Instruction {message = "", textColor = textColor, startTime = startTime};
             }
-        }
+
         instructions.Add(newInstruction);
 
-        SortInstructions ();
+        SortInstructions();
     }
 
     private void WriteDialog(Instruction instruction)
     {
         var letterCount = (int) Math.Ceiling((Time.time - instruction.startTime) / displayTimePerCharacter);
 
-        text.text = 
-            letterCount <= instruction.message.Length ?
-                instruction.message.Substring(0, letterCount) : 
-                instruction.message;
+        text.text =
+            letterCount <= instruction.message.Length
+                ? instruction.message.Substring(0, letterCount)
+                : instruction.message;
     }
 
-    private void SortInstructions ()
+    private void SortInstructions()
     {
-        for (int i = 0; i < instructions.Count; i++)
+        for (var i = 0; i < instructions.Count; i++)
         {
-            bool swapped = false;
+            var swapped = false;
 
-            for (int j = 0; j < instructions.Count; j++)
-            {
+            for (var j = 0; j < instructions.Count; j++)
                 if (instructions[i].startTime > instructions[j].startTime)
                 {
-                    Instruction temp = instructions[i];
+                    var temp = instructions[i];
                     instructions[i] = instructions[j];
                     instructions[j] = temp;
 
                     swapped = true;
                 }
-            }
 
             if (!swapped)
                 break;
         }
     }
-}
 
+    public class Instruction
+    {
+        public string message { get; set; }
+        public Color textColor { get; set; }
+        public float startTime { get; set; }
+        public GameObject player { get; set; }
+    }
+}

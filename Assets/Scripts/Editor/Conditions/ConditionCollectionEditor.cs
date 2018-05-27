@@ -1,32 +1,30 @@
-﻿using UnityEngine;
-using UnityEditor;
+﻿using UnityEditor;
+using UnityEngine;
 
 [CustomEditor(typeof(ConditionCollection))]
 public class ConditionCollectionEditor : EditorWithSubEditors<ConditionEditor, Condition>
 {
-    public SerializedProperty collectionsProperty;
-
-
-    private ConditionCollection conditionCollection;
-    private SerializedProperty descriptionProperty;
-    private SerializedProperty conditionsProperty;
-    private SerializedProperty reactionCollectionProperty;
-
-
     private const float conditionButtonWidth = 30f;
     private const float collectionButtonWidth = 125f;
     private const string conditionCollectionPropDescriptionName = "description";
     private const string conditionCollectionPropRequiredConditionsName = "requiredConditions";
     private const string conditionCollectionPropReactionCollectionName = "reactionCollection";
+    public SerializedProperty collectionsProperty;
 
 
-    private void OnEnable ()
+    private ConditionCollection conditionCollection;
+    private SerializedProperty conditionsProperty;
+    private SerializedProperty descriptionProperty;
+    private SerializedProperty reactionCollectionProperty;
+
+
+    private void OnEnable()
     {
-        conditionCollection = (ConditionCollection)target;
+        conditionCollection = (ConditionCollection) target;
 
         if (target == null)
         {
-            DestroyImmediate (this);
+            DestroyImmediate(this);
             return;
         }
 
@@ -34,48 +32,44 @@ public class ConditionCollectionEditor : EditorWithSubEditors<ConditionEditor, C
         conditionsProperty = serializedObject.FindProperty(conditionCollectionPropRequiredConditionsName);
         reactionCollectionProperty = serializedObject.FindProperty(conditionCollectionPropReactionCollectionName);
 
-        CheckAndCreateSubEditors (conditionCollection.requiredConditions);
+        CheckAndCreateSubEditors(conditionCollection.requiredConditions);
     }
 
 
-    private void OnDisable ()
+    private void OnDisable()
     {
-        CleanupEditors ();
+        CleanupEditors();
     }
 
 
-    protected override void SubEditorSetup (ConditionEditor editor)
+    protected override void SubEditorSetup(ConditionEditor editor)
     {
         editor.editorType = ConditionEditor.EditorType.ConditionCollection;
         editor.conditionsProperty = conditionsProperty;
     }
 
 
-    public override void OnInspectorGUI ()
+    public override void OnInspectorGUI()
     {
-        serializedObject.Update ();
+        serializedObject.Update();
 
         CheckAndCreateSubEditors(conditionCollection.requiredConditions);
-        
+
         EditorGUILayout.BeginVertical(GUI.skin.box);
         EditorGUI.indentLevel++;
 
         EditorGUILayout.BeginHorizontal();
 
-        descriptionProperty.isExpanded = EditorGUILayout.Foldout(descriptionProperty.isExpanded, descriptionProperty.stringValue);
+        descriptionProperty.isExpanded =
+            EditorGUILayout.Foldout(descriptionProperty.isExpanded, descriptionProperty.stringValue);
 
         if (GUILayout.Button("Remove Collection", GUILayout.Width(collectionButtonWidth)))
-        {
-            collectionsProperty.RemoveFromObjectArray (conditionCollection);
-        }
+            collectionsProperty.RemoveFromObjectArray(conditionCollection);
 
         EditorGUILayout.EndHorizontal();
-        
-        if (descriptionProperty.isExpanded)
-        {
-            ExpandedGUI ();
-        }
-        
+
+        if (descriptionProperty.isExpanded) ExpandedGUI();
+
         EditorGUI.indentLevel--;
         EditorGUILayout.EndVertical();
 
@@ -83,7 +77,7 @@ public class ConditionCollectionEditor : EditorWithSubEditors<ConditionEditor, C
     }
 
 
-    private void ExpandedGUI ()
+    private void ExpandedGUI()
     {
         EditorGUILayout.Space();
 
@@ -91,7 +85,7 @@ public class ConditionCollectionEditor : EditorWithSubEditors<ConditionEditor, C
 
         EditorGUILayout.Space();
 
-        float space = EditorGUIUtility.currentViewWidth / 3f;
+        var space = EditorGUIUtility.currentViewWidth / 3f;
 
         EditorGUILayout.BeginHorizontal();
         EditorGUILayout.LabelField("Condition", GUILayout.Width(space));
@@ -100,19 +94,17 @@ public class ConditionCollectionEditor : EditorWithSubEditors<ConditionEditor, C
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginVertical(GUI.skin.box);
-        for (int i = 0; i < subEditors.Length; i++)
-        {
-            subEditors[i].OnInspectorGUI();
-        }
+        for (var i = 0; i < subEditors.Length; i++) subEditors[i].OnInspectorGUI();
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal();
-        GUILayout.FlexibleSpace ();
+        GUILayout.FlexibleSpace();
         if (GUILayout.Button("+", GUILayout.Width(conditionButtonWidth)))
         {
-            Condition newCondition = ConditionEditor.CreateCondition();
+            var newCondition = ConditionEditor.CreateCondition();
             conditionsProperty.AddToObjectArray(newCondition);
         }
+
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.Space();
@@ -123,7 +115,7 @@ public class ConditionCollectionEditor : EditorWithSubEditors<ConditionEditor, C
 
     public static ConditionCollection CreateConditionCollection()
     {
-        ConditionCollection newConditionCollection = CreateInstance<ConditionCollection>();
+        var newConditionCollection = CreateInstance<ConditionCollection>();
         newConditionCollection.description = "New condition collection";
         newConditionCollection.requiredConditions = new Condition[1];
         newConditionCollection.requiredConditions[0] = ConditionEditor.CreateCondition();

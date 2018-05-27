@@ -2,21 +2,22 @@
 
 public abstract class Reaction : ScriptableObject
 {
-    public void Init ()
+    public void Init()
     {
-        SpecificInit ();
+        SpecificInit();
     }
 
 
     protected virtual void SpecificInit()
-    {}
-
-
-    public void React (MonoBehaviour monoBehaviour)
     {
-        ImmediateReaction ();
     }
 
 
-    protected abstract void ImmediateReaction ();
+    public void React(MonoBehaviour monoBehaviour)
+    {
+        ImmediateReaction();
+    }
+
+
+    protected abstract void ImmediateReaction();
 }

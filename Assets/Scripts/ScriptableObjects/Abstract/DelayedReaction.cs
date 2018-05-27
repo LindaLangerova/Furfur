@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
 public abstract class DelayedReaction : Reaction
 {
@@ -9,24 +9,24 @@ public abstract class DelayedReaction : Reaction
     protected WaitForSeconds wait;
 
 
-    public new void Init ()
+    public new void Init()
     {
-        wait = new WaitForSeconds (delay);
+        wait = new WaitForSeconds(delay);
 
-        SpecificInit ();
+        SpecificInit();
     }
 
 
-    public new void React (MonoBehaviour monoBehaviour)
+    public new void React(MonoBehaviour monoBehaviour)
     {
-        monoBehaviour.StartCoroutine (ReactCoroutine ());
+        monoBehaviour.StartCoroutine(ReactCoroutine());
     }
 
 
-    protected IEnumerator ReactCoroutine ()
+    protected IEnumerator ReactCoroutine()
     {
         yield return wait;
 
-        ImmediateReaction ();
+        ImmediateReaction();
     }
 }

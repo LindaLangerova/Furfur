@@ -1,144 +1,140 @@
 using System;
-using UnityEngine;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEngine;
 
 [CustomEditor(typeof(ReactionCollection))]
 public class ReactionCollectionEditor : EditorWithSubEditors<ReactionEditor, Reaction>
 {
-    private ReactionCollection reactionCollection;
-    private SerializedProperty reactionsProperty;
-
-    private Type[] reactionTypes;
-    private string[] reactionTypeNames;
-    private int selectedIndex;
-
-
     private const float dropAreaHeight = 50f;
     private const float controlSpacing = 5f;
     private const string reactionsPropName = "reactions";
 
 
     private readonly float verticalSpacing = EditorGUIUtility.standardVerticalSpacing;
+    private ReactionCollection reactionCollection;
+    private SerializedProperty reactionsProperty;
+    private string[] reactionTypeNames;
+
+    private Type[] reactionTypes;
+    private int selectedIndex;
 
 
-    private void OnEnable ()
+    private void OnEnable()
     {
-        reactionCollection = (ReactionCollection)target;
+        reactionCollection = (ReactionCollection) target;
 
         reactionsProperty = serializedObject.FindProperty(reactionsPropName);
 
-        CheckAndCreateSubEditors (reactionCollection.reactions);
+        CheckAndCreateSubEditors(reactionCollection.reactions);
 
-        SetReactionNamesArray ();
+        SetReactionNamesArray();
     }
 
 
-    private void OnDisable ()
+    private void OnDisable()
     {
-        CleanupEditors ();
+        CleanupEditors();
     }
 
 
-    protected override void SubEditorSetup (ReactionEditor editor)
+    protected override void SubEditorSetup(ReactionEditor editor)
     {
         editor.reactionsProperty = reactionsProperty;
     }
 
 
-    public override void OnInspectorGUI ()
+    public override void OnInspectorGUI()
     {
-        serializedObject.Update ();
+        serializedObject.Update();
 
         CheckAndCreateSubEditors(reactionCollection.reactions);
 
-        for (int i = 0; i < subEditors.Length; i++)
-        {
-            subEditors[i].OnInspectorGUI ();
-        }
+        for (var i = 0; i < subEditors.Length; i++) subEditors[i].OnInspectorGUI();
 
         if (reactionCollection.reactions.Length > 0)
         {
             EditorGUILayout.Space();
-            EditorGUILayout.Space ();
+            EditorGUILayout.Space();
         }
 
-        Rect fullWidthRect = GUILayoutUtility.GetRect(GUIContent.none, GUIStyle.none, GUILayout.Height(dropAreaHeight + verticalSpacing));
+        var fullWidthRect = GUILayoutUtility.GetRect(GUIContent.none, GUIStyle.none,
+            GUILayout.Height(dropAreaHeight + verticalSpacing));
 
-        Rect leftAreaRect = fullWidthRect;
+        var leftAreaRect = fullWidthRect;
         leftAreaRect.y += verticalSpacing * 0.5f;
         leftAreaRect.width *= 0.5f;
         leftAreaRect.width -= controlSpacing * 0.5f;
         leftAreaRect.height = dropAreaHeight;
 
-        Rect rightAreaRect = leftAreaRect;
+        var rightAreaRect = leftAreaRect;
         rightAreaRect.x += rightAreaRect.width + controlSpacing;
 
-        TypeSelectionGUI (leftAreaRect);
-        DragAndDropAreaGUI (rightAreaRect);
+        TypeSelectionGUI(leftAreaRect);
+        DragAndDropAreaGUI(rightAreaRect);
 
         DraggingAndDropping(rightAreaRect, this);
 
-        serializedObject.ApplyModifiedProperties ();
+        serializedObject.ApplyModifiedProperties();
     }
 
 
-    private void TypeSelectionGUI (Rect containingRect)
+    private void TypeSelectionGUI(Rect containingRect)
     {
-        Rect topHalf = containingRect;
+        var topHalf = containingRect;
         topHalf.height *= 0.5f;
-        
-        Rect bottomHalf = topHalf;
+
+        var bottomHalf = topHalf;
         bottomHalf.y += bottomHalf.height;
 
         selectedIndex = EditorGUI.Popup(topHalf, selectedIndex, reactionTypeNames);
 
-        if (GUI.Button (bottomHalf, "Add Selected Reaction"))
+        if (GUI.Button(bottomHalf, "Add Selected Reaction"))
         {
-            Type reactionType = reactionTypes[selectedIndex];
-            Reaction newReaction = ReactionEditor.CreateReaction (reactionType);
-            reactionsProperty.AddToObjectArray (newReaction);
+            var reactionType = reactionTypes[selectedIndex];
+            var newReaction = ReactionEditor.CreateReaction(reactionType);
+            reactionsProperty.AddToObjectArray(newReaction);
         }
     }
 
 
-    private static void DragAndDropAreaGUI (Rect containingRect)
+    private static void DragAndDropAreaGUI(Rect containingRect)
     {
-        GUIStyle centredStyle = GUI.skin.box;
+        var centredStyle = GUI.skin.box;
         centredStyle.alignment = TextAnchor.MiddleCenter;
         centredStyle.normal.textColor = GUI.skin.button.normal.textColor;
 
-        GUI.Box (containingRect, "Drop new Reactions here", centredStyle);
+        GUI.Box(containingRect, "Drop new Reactions here", centredStyle);
     }
 
 
-    private static void DraggingAndDropping (Rect dropArea, ReactionCollectionEditor editor)
+    private static void DraggingAndDropping(Rect dropArea, ReactionCollectionEditor editor)
     {
-        Event currentEvent = Event.current;
+        var currentEvent = Event.current;
 
-        if (!dropArea.Contains (currentEvent.mousePosition))
+        if (!dropArea.Contains(currentEvent.mousePosition))
             return;
 
         switch (currentEvent.type)
         {
             case EventType.DragUpdated:
 
-                DragAndDrop.visualMode = IsDragValid () ? DragAndDropVisualMode.Link : DragAndDropVisualMode.Rejected;
-                currentEvent.Use ();
+                DragAndDrop.visualMode = IsDragValid() ? DragAndDropVisualMode.Link : DragAndDropVisualMode.Rejected;
+                currentEvent.Use();
 
                 break;
             case EventType.DragPerform:
-                
+
                 DragAndDrop.AcceptDrag();
-                
-                for (int i = 0; i < DragAndDrop.objectReferences.Length; i++)
+
+                for (var i = 0; i < DragAndDrop.objectReferences.Length; i++)
                 {
-                    MonoScript script = DragAndDrop.objectReferences[i] as MonoScript;
+                    var script = DragAndDrop.objectReferences[i] as MonoScript;
 
-                    Type reactionType = script.GetClass();
+                    var reactionType = script.GetClass();
 
-                    Reaction newReaction = ReactionEditor.CreateReaction (reactionType);
-                    editor.reactionsProperty.AddToObjectArray (newReaction);
+                    var newReaction = ReactionEditor.CreateReaction(reactionType);
+                    editor.reactionsProperty.AddToObjectArray(newReaction);
                 }
 
                 currentEvent.Use();
@@ -148,17 +144,17 @@ public class ReactionCollectionEditor : EditorWithSubEditors<ReactionEditor, Rea
     }
 
 
-    private static bool IsDragValid ()
+    private static bool IsDragValid()
     {
-        for (int i = 0; i < DragAndDrop.objectReferences.Length; i++)
+        for (var i = 0; i < DragAndDrop.objectReferences.Length; i++)
         {
-            if (DragAndDrop.objectReferences[i].GetType () != typeof (MonoScript))
+            if (DragAndDrop.objectReferences[i].GetType() != typeof(MonoScript))
                 return false;
-            
-            MonoScript script = DragAndDrop.objectReferences[i] as MonoScript;
-            Type scriptType = script.GetClass ();
 
-            if (!scriptType.IsSubclassOf (typeof(Reaction)))
+            var script = DragAndDrop.objectReferences[i] as MonoScript;
+            var scriptType = script.GetClass();
+
+            if (!scriptType.IsSubclassOf(typeof(Reaction)))
                 return false;
 
             if (scriptType.IsAbstract)
@@ -169,30 +165,23 @@ public class ReactionCollectionEditor : EditorWithSubEditors<ReactionEditor, Rea
     }
 
 
-    private void SetReactionNamesArray ()
+    private void SetReactionNamesArray()
     {
-        Type reactionType = typeof(Reaction);
+        var reactionType = typeof(Reaction);
 
-        Type[] allTypes = reactionType.Assembly.GetTypes();
+        var allTypes = reactionType.Assembly.GetTypes();
 
-        List<Type> reactionSubTypeList = new List<Type>();
+        var reactionSubTypeList = new List<Type>();
 
-        for (int i = 0; i < allTypes.Length; i++)
-        {
+        for (var i = 0; i < allTypes.Length; i++)
             if (allTypes[i].IsSubclassOf(reactionType) && !allTypes[i].IsAbstract)
-            {
                 reactionSubTypeList.Add(allTypes[i]);
-            }
-        }
 
         reactionTypes = reactionSubTypeList.ToArray();
 
-        List<string> reactionTypeNameList = new List<string>();
+        var reactionTypeNameList = new List<string>();
 
-        for (int i = 0; i < reactionTypes.Length; i++)
-        {
-            reactionTypeNameList.Add(reactionTypes[i].Name);
-        }
+        for (var i = 0; i < reactionTypes.Length; i++) reactionTypeNameList.Add(reactionTypes[i].Name);
 
         reactionTypeNames = reactionTypeNameList.ToArray();
     }

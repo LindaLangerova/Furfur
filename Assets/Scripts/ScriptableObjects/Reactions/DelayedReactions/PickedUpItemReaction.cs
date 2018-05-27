@@ -1,8 +1,7 @@
 ﻿public class PickedUpItemReaction : DelayedReaction
 {
-    public Item item;
-   
     private Inventory inventory;
+    public Item item;
 
     protected override void SpecificInit()
     {

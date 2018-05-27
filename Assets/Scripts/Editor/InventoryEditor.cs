@@ -1,16 +1,15 @@
-﻿using UnityEngine;
-using UnityEditor;
+﻿using UnityEditor;
+using UnityEngine;
 
 [CustomEditor(typeof(Inventory))]
 public class InventoryEditor : Editor
 {
-    private bool[] showItemSlots = new bool[Inventory.numItemSlots];
+    private const string inventoryPropItemImagesName = "itemImages";
+    private const string inventoryPropItemsName = "items";
 
     private SerializedProperty itemImagesProperty;
     private SerializedProperty itemsProperty;
-
-    private const string inventoryPropItemImagesName = "itemImages";
-    private const string inventoryPropItemsName = "items";
+    private readonly bool[] showItemSlots = new bool[Inventory.numItemSlots];
 
     private void OnEnable()
     {
@@ -24,11 +23,8 @@ public class InventoryEditor : Editor
 
         itemImagesProperty.arraySize = Inventory.numItemSlots;
         itemsProperty.arraySize = Inventory.numItemSlots;
-        
-        for (int i = 0; i < Inventory.numItemSlots; i++)
-        {
-            ItemSlotGUI(i);
-        }
+
+        for (var i = 0; i < Inventory.numItemSlots; i++) ItemSlotGUI(i);
         serializedObject.ApplyModifiedProperties();
     }
 
@@ -43,6 +39,7 @@ public class InventoryEditor : Editor
             EditorGUILayout.PropertyField(itemImagesProperty.GetArrayElementAtIndex(index));
             EditorGUILayout.PropertyField(itemsProperty.GetArrayElementAtIndex(index));
         }
+
         EditorGUI.indentLevel--;
         EditorGUILayout.EndVertical();
     }

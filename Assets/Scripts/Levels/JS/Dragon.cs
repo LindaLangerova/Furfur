@@ -2,29 +2,29 @@
 
 public class Dragon : MonoBehaviour
 {
+    private bool _alreadyEnding;
+    private float _animationTime;
 
-    public GameObject Player;
-    public float MeteorSpeed = 0.1f;
+    private GameObject _meteor;
     private PlayerMovement _movement;
 
     private bool _shouldCreateMeteor;
     private bool _shouldMeteorFall;
-    
-    private GameObject _meteor;
+    public float MeteorSpeed = 0.1f;
 
     public bool MountDragon;
-    private float _animationTime;
-    private bool _alreadyEnding = false;
+
+    public GameObject Player;
 
     // Use this for initialization
-    void Start ()
+    private void Start()
     {
         _animationTime = 0;
         MountDragon = false;
 
         _shouldCreateMeteor = true;
         _shouldMeteorFall = false;
-        
+
         _meteor = GameObject.Find("Meteor");
         _meteor.transform.position = new Vector3(443, 211, 0);
 
@@ -33,25 +33,22 @@ public class Dragon : MonoBehaviour
 
         _movement = Player.GetComponent<PlayerMovement>();
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-	    if (MountDragon)
-	    {
-	        OnMountDragon();
-	    }
-	    else
-	    {
-	        if (Player.transform.position.y < 206 && Player.transform.position.x > 438.5)
-	        {
-	            OnMeteor();
-	        }
-	        if (Player.transform.position.x <= 438.5) _shouldCreateMeteor = true;
+    // Update is called once per frame
+    private void Update()
+    {
+        if (MountDragon)
+        {
+            OnMountDragon();
+        }
+        else
+        {
+            if (Player.transform.position.y < 206 && Player.transform.position.x > 438.5) OnMeteor();
+            if (Player.transform.position.x <= 438.5) _shouldCreateMeteor = true;
         }
     }
 
-    void OnMeteor()
+    private void OnMeteor()
     {
         if (_shouldCreateMeteor)
         {
@@ -65,23 +62,21 @@ public class Dragon : MonoBehaviour
         }
 
         if (_shouldMeteorFall)
-        {
             if (_meteor.transform.position.y < 204.5)
             {
                 _movement.pushed = true;
                 _movement.PushAway(new Vector2(-17, 5));
                 _meteor.transform.position = new Vector3(443, 211, 0);
-                 _meteor.SetActive(false);
+                _meteor.SetActive(false);
                 _shouldMeteorFall = false;
             }
             else
             {
-                _meteor.transform.position += new Vector3(-MeteorSpeed, -2* MeteorSpeed, 0);
+                _meteor.transform.position += new Vector3(-MeteorSpeed, -2 * MeteorSpeed, 0);
             }
-        }  
     }
 
-    void OnMountDragon()
+    private void OnMountDragon()
     {
         if (_animationTime == 0)
         {
@@ -98,9 +93,8 @@ public class Dragon : MonoBehaviour
                 GameObject.Find("DidMountReaction").GetComponent<ReactionCollection>().React();
                 Destroy(GameObject.Find("Flufflekins"), 1);
             }
+
             _animationTime += Time.deltaTime;
         }
-        
     }
-    
 }

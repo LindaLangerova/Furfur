@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 458124372}
   - component: {fileID: 458124371}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: Sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -526,7 +526,7 @@ RectTransform:
   m_Children:
   - {fileID: 1609063452}
   m_Father: {fileID: 738372804}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -891,9 +891,9 @@ RectTransform:
   - {fileID: 951310472}
   - {fileID: 232122443}
   - {fileID: 2068138636}
+  - {fileID: 458124370}
   - {fileID: 873425635}
   - {fileID: 1593454288}
-  - {fileID: 458124370}
   m_Father: {fileID: 686166017}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1115,7 +1115,7 @@ RectTransform:
   m_Children:
   - {fileID: 246908594}
   m_Father: {fileID: 738372804}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1458,8 +1458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c5341da37bde4e4c961bb900e358337, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  streamVideo: {fileID: 1802520853}
   Skip: {fileID: 251912850}
+  streamVideo: {fileID: 1802520853}
 --- !u!224 &1237732102
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1656,7 +1656,7 @@ RectTransform:
   m_Children:
   - {fileID: 158405792}
   m_Father: {fileID: 738372804}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2087,8 +2087,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 2144281828}
-  videoPlayer: {fileID: 2144281826}
   videoFinished: 0
+  videoPlayer: {fileID: 2144281826}
 --- !u!1 &2019411375
 GameObject:
   m_ObjectHideFlags: 0

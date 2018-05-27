@@ -3,9 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagerAddition : MonoBehaviour
 {
+    public GameObject Skip;
 
     public StreamVideo streamVideo;
-    public GameObject Skip;
 
     public void LoadC()
     {
@@ -14,11 +14,8 @@ public class SceneManagerAddition : MonoBehaviour
         streamVideo.enabled = true;
     }
 
-    void Update()
+    private void Update()
     {
-        if (streamVideo.videoFinished)
-        {
-            SceneManager.LoadScene("C", LoadSceneMode.Single);
-        }
+        if (streamVideo.videoFinished) SceneManager.LoadScene("C", LoadSceneMode.Single);
     }
 }

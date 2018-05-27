@@ -2,16 +2,15 @@
 
 public class NPCTrigger : MonoBehaviour
 {
+    private Interactable _interactable;
     private BoxCollider2D _npcCollider;
     private BoxCollider2D _playerCollider;
+    private string _text;
 
     private GameObject _whiter;
 
-    private Interactable _interactable;
-    private string _text;
-
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    private void Start()
     {
         _npcCollider = gameObject.GetComponent<BoxCollider2D>();
         var player = GameObject.Find("Player");
@@ -21,21 +20,23 @@ public class NPCTrigger : MonoBehaviour
 
         _interactable = gameObject.GetComponent<Interactable>();
     }
-	
-	// Update is called once per frame
-	void Update () {
-	    _text = FindObjectOfType<TextManager>().text.text;
-	    _whiter = GameObject.Find("Whiter");
+
+    // Update is called once per frame
+    private void Update()
+    {
+        _text = FindObjectOfType<TextManager>().text.text;
+        _whiter = GameObject.Find("Whiter");
 
         if (_whiter) return;
-	    if (Input.GetKeyDown(KeyCode.X) && _text.Length == 0)
-	    {
-	       if (_playerCollider.IsTouching(_npcCollider))
-	        {
-	            SoundManager.PlayPickSound();
-	            _interactable.Interact();
-	        }
-	        else SoundManager.PlayErrorPickSound(FindObjectOfType<TextManager>().instructions.Count);
-	    }
+        if (Input.GetKeyDown(KeyCode.X) && _text.Length == 0)
+            if (_playerCollider.IsTouching(_npcCollider))
+            {
+                SoundManager.PlayPickSound();
+                _interactable.Interact();
+            }
+            else
+            {
+                SoundManager.PlayErrorPickSound(FindObjectOfType<TextManager>().instructions.Count);
+            }
     }
 }

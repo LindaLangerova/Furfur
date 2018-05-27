@@ -1,6 +1,5 @@
 ﻿using UnityEditor;
 
-
 [CustomEditor(typeof(MethodReaction))]
 public class MethodReactionEditor : ReactionEditor
 {

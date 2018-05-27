@@ -1,69 +1,63 @@
 using System;
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 
 public abstract class ReactionEditor : Editor
 {
-    public bool showReaction;
-    public SerializedProperty reactionsProperty;
-
-
-    private Reaction reaction;
-
-
     private const float buttonWidth = 30f;
 
 
-    private void OnEnable ()
+    private Reaction reaction;
+    public SerializedProperty reactionsProperty;
+    public bool showReaction;
+
+
+    private void OnEnable()
     {
-        reaction = (Reaction)target;
-        Init ();
+        reaction = (Reaction) target;
+        Init();
     }
 
 
-    protected virtual void Init () {}
-
-
-    public override void OnInspectorGUI ()
+    protected virtual void Init()
     {
-        serializedObject.Update ();
+    }
 
-        EditorGUILayout.BeginVertical (GUI.skin.box);
+
+    public override void OnInspectorGUI()
+    {
+        serializedObject.Update();
+
+        EditorGUILayout.BeginVertical(GUI.skin.box);
         EditorGUI.indentLevel++;
 
-        EditorGUILayout.BeginHorizontal ();
-        
-        showReaction = EditorGUILayout.Foldout (showReaction, GetFoldoutLabel ());
-        
-        if (GUILayout.Button ("-", GUILayout.Width (buttonWidth)))
-        {
-            reactionsProperty.RemoveFromObjectArray (reaction);
-        }
-        EditorGUILayout.EndHorizontal ();
-        
-        if (showReaction)
-        {
-            DrawReaction ();
-        }
+        EditorGUILayout.BeginHorizontal();
+
+        showReaction = EditorGUILayout.Foldout(showReaction, GetFoldoutLabel());
+
+        if (GUILayout.Button("-", GUILayout.Width(buttonWidth))) reactionsProperty.RemoveFromObjectArray(reaction);
+        EditorGUILayout.EndHorizontal();
+
+        if (showReaction) DrawReaction();
 
         EditorGUI.indentLevel--;
-        EditorGUILayout.EndVertical ();
+        EditorGUILayout.EndVertical();
 
-        serializedObject.ApplyModifiedProperties ();
+        serializedObject.ApplyModifiedProperties();
     }
 
 
-    public static Reaction CreateReaction (Type reactionType)
+    public static Reaction CreateReaction(Type reactionType)
     {
-        return (Reaction)CreateInstance (reactionType);
+        return (Reaction) CreateInstance(reactionType);
     }
 
 
-    protected virtual void DrawReaction ()
+    protected virtual void DrawReaction()
     {
-        DrawDefaultInspector ();
+        DrawDefaultInspector();
     }
 
 
-    protected abstract string GetFoldoutLabel ();
+    protected abstract string GetFoldoutLabel();
 }

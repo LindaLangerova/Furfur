@@ -4,15 +4,13 @@ using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
+    public const int numItemSlots = 6;
     public Image[] itemImages = new Image[numItemSlots];
     public Item[] items = new Item[numItemSlots];
 
-    public const int numItemSlots = 6;
-
     public void AddItem(Item itemToAdd)
     {
-        for (int i = 0; i < numItemSlots; i++)
-        {
+        for (var i = 0; i < numItemSlots; i++)
             if (items[i] == null)
             {
                 items[i] = itemToAdd;
@@ -20,12 +18,11 @@ public class Inventory : MonoBehaviour
                 itemImages[i].enabled = true;
                 return;
             }
-        }
     }
+
     public void RemoveItem(Item itemToRemove)
     {
-        for (int i = 0; i < numItemSlots; i++)
-        {
+        for (var i = 0; i < numItemSlots; i++)
             if (items[i] == itemToRemove)
             {
                 items[i] = null;
@@ -33,19 +30,16 @@ public class Inventory : MonoBehaviour
                 itemImages[i].enabled = false;
                 return;
             }
-        }
     }
 
     public void RemoveLast()
     {
-        for (int i = numItemSlots-1; i >= 0; i--)
-        {
+        for (var i = numItemSlots - 1; i >= 0; i--)
             if (items[i] != null)
             {
                 RemoveItem(items[i]);
                 return;
             }
-        }
     }
 
     public bool ContainsItems()
