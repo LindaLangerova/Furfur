@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a2ed4c43c795143871cceef66f8594, type: 3}
   m_Name: IDcard
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 2d4bf9196f814a5449519cee762d6283, type: 3}
+  sprite: {fileID: 21300000, guid: 4520f913c4745924ea472fe0fdaff3d2, type: 3}

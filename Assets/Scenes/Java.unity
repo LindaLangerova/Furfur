@@ -865,6 +865,16 @@ Prefab:
       propertyPath: m_Color.b
       value: 0.30655277
       objectReference: {fileID: 0}
+    - target: {fileID: 212259685919332758, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 223323704170770898, guid: cf44ba835028c894998b01e489111964,
+        type: 2}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1946855503}
     m_RemovedComponents:
     - {fileID: 114980339325204260, guid: cf44ba835028c894998b01e489111964, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: cf44ba835028c894998b01e489111964, type: 2}
@@ -8169,7 +8179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   description: JavaSpeakToCEO
-  satisfied: 0
+  satisfied: 1
   hash: 157517973
 --- !u!1 &720818173
 GameObject:
@@ -9195,7 +9205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: You finished Level
+  message: You got out!
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!114 &811478283
@@ -9736,7 +9746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26bd5d59f0004554fa232e4c101cca82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Hmm...interesting... the coffee is flowing on and on and on... '
+  message: 'Hmm... interesting... the coffee is flowing on and on and on... '
   textColor: {r: 0.184, g: 0.184, b: 0.184, a: 1}
   delay: 0
 --- !u!114 &850136791
@@ -21762,6 +21772,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c21af2fc0b124984997593c2bfd99b4d, type: 2}
   m_IsPrefabParent: 0
+--- !u!20 &1946855503 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 20661651145270802, guid: c21af2fc0b124984997593c2bfd99b4d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1946855502}
 --- !u!114 &1950004895
 MonoBehaviour:
   m_ObjectHideFlags: 0

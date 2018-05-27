@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -27,7 +26,7 @@ public class StreamVideoLast : MonoBehaviour
     IEnumerator playVideo()
     {
         
-        image.color = new Vector4(1,1,1,1);
+        image.color = new Vector4(0,0,0,1);
         videoPlayer.Prepare();
         
         WaitForSeconds waitTime = new WaitForSeconds(5);
@@ -40,7 +39,7 @@ public class StreamVideoLast : MonoBehaviour
             break;
         }
         image.texture = videoPlayer.texture;
-
+        image.color = new Vector4(1, 1, 1, 1);
         //Play Video
         videoPlayer.Play();
         

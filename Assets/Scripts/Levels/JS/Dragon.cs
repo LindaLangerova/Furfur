@@ -1,12 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Dragon : MonoBehaviour
 {
 
     public GameObject Player;
-    public Sprite MeteorSprite;
     public float MeteorSpeed = 0.1f;
     private PlayerMovement _movement;
 
@@ -17,6 +14,7 @@ public class Dragon : MonoBehaviour
 
     public bool MountDragon;
     private float _animationTime;
+    private bool _alreadyEnding = false;
 
     // Use this for initialization
     void Start ()
@@ -92,10 +90,13 @@ public class Dragon : MonoBehaviour
         }
         else
         {
-            Debug.Log(_animationTime);
-            if (_animationTime > 11)
+            if (_animationTime > 13 && !_alreadyEnding)
             {
-                Destroy(GameObject.Find("Flufflekins"));
+                _alreadyEnding = true;
+
+                Debug.Log("Did mount!");
+                GameObject.Find("DidMountReaction").GetComponent<ReactionCollection>().React();
+                Destroy(GameObject.Find("Flufflekins"), 1);
             }
             _animationTime += Time.deltaTime;
         }

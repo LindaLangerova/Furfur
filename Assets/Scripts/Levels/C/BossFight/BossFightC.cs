@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Video;
 
 public class BossFightC : MonoBehaviour {
 
@@ -127,6 +121,4 @@ public class BossFightC : MonoBehaviour {
         _slider.value = BOSS_LIVES;
         enabled = false;
     }
-
 }
-

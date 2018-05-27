@@ -1,7 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
@@ -28,7 +26,7 @@ public class StreamVideo : MonoBehaviour
     IEnumerator playVideo()
     {
         
-        image.color = new Vector4(1,1,1,1);
+        image.color = new Vector4(0,0,0,1);
         audioSource = videoPlayer.GetComponent<AudioSource>();
         
         videoPlayer.Prepare();
@@ -43,7 +41,7 @@ public class StreamVideo : MonoBehaviour
             break;
         }
         image.texture = videoPlayer.texture;
-
+        image.color = new Vector4(1, 1, 1, 1);
         //Play Video
         audioSource.Play();
         videoPlayer.Play();

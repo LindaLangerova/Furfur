@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a2ed4c43c795143871cceef66f8594, type: 3}
   m_Name: Vue
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 66e71ce21a698624cb41139831d47c56, type: 3}
+  sprite: {fileID: 21300000, guid: 368b051923c359c48b273730bf11995f, type: 3}
